@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Medical & Health Science Courses – Tamil Nadu 2025</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --b900:#0c1f4a;--b800:#1a3a6e;--b700:#1e4d9a;--b600:#2563eb;
+  --b500:#3b82f6;--b400:#60a5fa;--b300:#93c5fd;--b200:#bfdbfe;
+  --b100:#dbeafe;--b50:#eff6ff;--b20:#f5f9ff;
+  --white:#fff;--g50:#f8fafc;--g100:#f1f5f9;--g200:#e2e8f0;
+  --g300:#cbd5e1;--g400:#94a3b8;--g500:#64748b;--g600:#475569;
+  --g700:#334155;--g800:#1e293b;--g900:#0f172a;
+  --green:#16a34a;--green-lt:#dcfce7;--green-dk:#14532d;
+  --amber:#d97706;--amber-lt:#fef3c7;--amber-dk:#78350f;
+  --red:#dc2626;--red-lt:#fee2e2;--teal:#0d9488;--teal-lt:#ccfbf1;
+  --purple:#7c3aed;--purple-lt:#ede9fe;--pink:#db2777;--pink-lt:#fce7f3;
+  --orange:#ea580c;--orange-lt:#ffedd5;
+  --fh:'Plus Jakarta Sans',sans-serif; --fb:'Inter',sans-serif;
+  --r:10px;--rl:16px;--rxl:20px;
+  --sh:0 1px 4px rgba(37,99,235,0.07);
+  --shm:0 4px 20px rgba(37,99,235,0.10);
+  --shl:0 8px 36px rgba(37,99,235,0.14);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--fb);background:var(--g50);color:var(--g800);line-height:1.65;font-size:15px}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,var(--b900) 0%,var(--b700) 55%,var(--b500) 100%);padding:56px 24px 48px;text-align:center;position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;overflow:hidden}
+.hero-bg::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle at 1px 1px,rgba(255,255,255,0.06) 1px,transparent 0);background-size:32px 32px}
+.hero-bg::after{content:'';position:absolute;bottom:-80px;right:-80px;width:300px;height:300px;border-radius:50%;background:rgba(96,165,250,0.12)}
+.hero-inner{position:relative;z-index:1;max-width:780px;margin:0 auto}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.11);border:1px solid rgba(255,255,255,0.22);color:#fff;font-family:var(--fh);font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:6px 16px;border-radius:99px;margin-bottom:22px}
+.hero-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--b300);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.hero h1{font-family:var(--fh);font-size:clamp(26px,5.5vw,54px);font-weight:900;color:#fff;line-height:1.07;margin-bottom:14px;letter-spacing:-.02em}
+.hero h1 em{font-style:normal;color:var(--b300)}
+.hero-sub{font-size:15px;color:rgba(255,255,255,0.68);max-width:600px;margin:0 auto 32px;line-height:1.75}
+.hero-pills{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-bottom:36px}
+.hero-pill{background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.18);color:#fff;font-size:12px;font-weight:600;padding:6px 16px;border-radius:99px;font-family:var(--fh)}
+.hero-stats{display:flex;justify-content:center;flex-wrap:wrap;gap:10px}
+.hs{background:rgba(255,255,255,0.09);border:1px solid rgba(255,255,255,0.16);border-radius:var(--rl);padding:14px 22px;text-align:center;min-width:100px}
+.hs .n{font-family:var(--fh);font-size:24px;font-weight:900;color:#fff}
+.hs .l{font-size:10px;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:.07em;margin-top:2px}
+
+/* NAV */
+/* ── NAV ── */
+.nav{position:sticky;top:0;z-index:200;background:var(--white);box-shadow:0 4px 24px rgba(37,99,235,0.10);border-bottom:none}
+.nav-inner{display:flex;overflow-x:auto;max-width:100%;margin:0 auto;background:var(--white)}
+.nav-inner::-webkit-scrollbar{height:0}
+.nb{
+  flex:1;min-width:110px;
+  padding:0;
+  font-family:var(--fh);
+  color:var(--g400);
+  background:none;border:none;
+  border-bottom:3px solid transparent;
+  cursor:pointer;white-space:nowrap;
+  transition:all .22s;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:4px;
+  padding:14px 10px 12px;
+  position:relative;
+}
+.nb .nb-icon{font-size:22px;line-height:1;transition:transform .2s}
+.nb .nb-label{font-size:11.5px;font-weight:700;letter-spacing:.01em;line-height:1.2;text-align:center}
+.nb .nb-sub{font-size:9.5px;font-weight:500;opacity:.7;line-height:1;text-align:center;letter-spacing:.02em;text-transform:uppercase}
+.nb.active{color:var(--b600);border-bottom-color:var(--b600);background:var(--b50)}
+.nb.active .nb-icon{transform:scale(1.15)}
+.nb.active::after{content:'';position:absolute;bottom:-3px;left:50%;transform:translateX(-50%);width:32px;height:3px;background:var(--b600);border-radius:99px 99px 0 0}
+.nb:hover:not(.active){color:var(--b700);background:var(--b50)}
+.nb:hover:not(.active) .nb-icon{transform:scale(1.08)}
+@media(max-width:600px){
+  .nb{min-width:80px;padding:10px 6px 9px}
+  .nb .nb-icon{font-size:18px}
+  .nb .nb-label{font-size:10px}
+  .nb .nb-sub{display:none}
+}
+
+/* SECTIONS */
+.sec{display:none;padding:36px 18px;max-width:1240px;margin:0 auto;animation:fadeIn .25s ease}
+.sec.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.sh{margin-bottom:28px}
+.sh h2{font-family:var(--fh);font-size:22px;font-weight:800;color:var(--b900);margin-bottom:5px}
+.sh p{color:var(--g500);font-size:13.5px}
+
+/* CATEGORY SECTION */
+.cat-nav{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:24px}
+.cat-btn{padding:7px 16px;border-radius:99px;font-size:12px;font-weight:700;font-family:var(--fh);cursor:pointer;border:1.5px solid var(--b200);background:var(--white);color:var(--g600);transition:all .2s;display:flex;align-items:center;gap:5px}
+.cat-btn.active,.cat-btn:hover{background:var(--b600);border-color:var(--b600);color:#fff}
+.cat-count{font-size:10px;background:var(--b100);color:var(--b700);padding:1px 6px;border-radius:99px;font-weight:700}
+.cat-btn.active .cat-count{background:rgba(255,255,255,0.22);color:#fff}
+
+/* COURSE CARDS */
+.courses-wrap{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+.course-card{background:var(--white);border:1px solid var(--b100);border-radius:var(--rl);overflow:hidden;box-shadow:var(--sh);transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column}
+.course-card:hover{transform:translateY(-2px);box-shadow:var(--shm)}
+.cc-top{padding:20px 20px 0}
+.cc-row1{display:flex;align-items:flex-start;gap:12px;margin-bottom:12px}
+.cc-icon{width:48px;height:48px;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0}
+.cc-meta{flex:1}
+.cc-name{font-family:var(--fh);font-size:14.5px;font-weight:800;color:var(--b900);line-height:1.3;margin-bottom:3px}
+.cc-short{font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
+.cc-badges{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px}
+.badge{font-size:10px;font-weight:700;padding:2px 8px;border-radius:99px;white-space:nowrap}
+.badge-neet{background:#fee2e2;color:#b91c1c}
+.badge-noneet{background:#dcfce7;color:#14532d}
+.badge-dur{background:var(--b100);color:var(--b800)}
+.badge-salary{background:var(--amber-lt);color:var(--amber-dk)}
+.badge-demand{background:var(--purple-lt);color:var(--purple)}
+.cc-desc{font-size:12.5px;color:var(--g500);line-height:1.65;margin-bottom:14px}
+.cc-divider{height:1px;background:var(--b50);margin:0}
+.cc-jobs{padding:13px 20px 0}
+.cc-jobs-label{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--g400);margin-bottom:7px}
+.job-chips{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px}
+.jc{font-size:11px;font-weight:500;padding:3px 9px;border-radius:99px;background:var(--b50);border:1px solid var(--b100);color:var(--b700);white-space:nowrap}
+.cc-where{padding:0 20px 14px}
+.cc-where-label{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--g400);margin-bottom:7px}
+.where-chips{display:flex;flex-wrap:wrap;gap:4px}
+.wc{font-size:11px;font-weight:500;padding:3px 9px;border-radius:99px;background:var(--teal-lt);border:1px solid #5eead4;color:var(--teal);white-space:nowrap}
+.cc-toggle{width:100%;padding:10px;background:var(--b50);border:none;border-top:1px solid var(--b100);cursor:pointer;font-size:11.5px;font-weight:700;color:var(--b600);font-family:var(--fh);transition:background .2s;margin-top:auto;display:flex;align-items:center;justify-content:center;gap:5px}
+.cc-toggle:hover{background:var(--b100)}
+.cc-extra{display:none;padding:14px 20px;border-top:1px solid var(--b50);background:var(--b20)}
+.cc-extra.open{display:block}
+.extra-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
+.extra-item{font-size:12px;display:flex;align-items:flex-start;gap:6px;color:var(--g600)}
+.extra-item::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--b400);flex-shrink:0;margin-top:5px}
+.extra-title{font-size:11px;font-weight:700;color:var(--b700);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.salary-bar{display:flex;align-items:center;gap:10px;margin-top:10px;padding-top:10px;border-top:1px solid var(--b100)}
+.sb-label{font-size:11px;color:var(--g400);white-space:nowrap}
+.sb-track{flex:1;height:5px;background:var(--b100);border-radius:99px;overflow:hidden}
+.sb-fill{height:100%;background:linear-gradient(90deg,var(--b400),var(--b600));border-radius:99px}
+.sb-val{font-family:var(--fh);font-size:12px;font-weight:700;color:var(--green);white-space:nowrap}
+
+/* ADMISSION TAB */
+.route-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-bottom:32px}
+.route-card{background:var(--white);border:1px solid var(--b100);border-radius:var(--rl);padding:22px;box-shadow:var(--sh)}
+.route-icon{font-size:36px;margin-bottom:12px;display:block}
+.route-name{font-family:var(--fh);font-size:15px;font-weight:800;color:var(--b900);margin-bottom:6px}
+.route-desc{font-size:12.5px;color:var(--g500);margin-bottom:14px;line-height:1.65}
+.route-courses{font-size:11.5px;color:var(--b700);font-weight:600;background:var(--b50);border-radius:var(--r);padding:8px 12px;line-height:1.8}
+.timeline{padding-left:32px;position:relative}
+.timeline::before{content:'';position:absolute;left:12px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--b400),var(--b100))}
+.tl-item{position:relative;margin-bottom:28px}
+.tl-dot{position:absolute;left:-26px;top:4px;width:16px;height:16px;border-radius:50%;background:var(--b600);border:3px solid var(--white);box-shadow:0 0 0 2px var(--b300)}
+.tl-step{font-size:10px;font-weight:700;color:var(--b500);letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px}
+.tl-title{font-family:var(--fh);font-size:15px;font-weight:800;color:var(--b900);margin-bottom:5px}
+.tl-desc{font-size:12.5px;color:var(--g600);line-height:1.7}
+.ibox{background:var(--b50);border:1px solid var(--b200);border-left:3px solid var(--b500);border-radius:var(--r);padding:12px 16px;margin-top:8px;font-size:12.5px;color:var(--b800);line-height:1.7}
+.ibox strong{color:var(--b700);font-weight:700}
+.doc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px;margin-top:10px}
+.doc-item{background:var(--white);border:1px solid var(--b100);border-radius:var(--r);padding:9px 13px;font-size:12.5px;color:var(--g700);display:flex;align-items:center;gap:7px}
+
+/* CAREER VISION TAB */
+.sector-tabs{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:24px}
+.st{padding:7px 16px;border-radius:99px;font-size:12px;font-weight:700;font-family:var(--fh);cursor:pointer;border:1.5px solid var(--b200);background:var(--white);color:var(--g600);transition:all .2s}
+.st.active{background:var(--b600);border-color:var(--b600);color:#fff}
+.sector-panel{display:none}
+.sector-panel.active{display:block}
+.sector-hero{border-radius:var(--rxl);padding:28px 32px;color:#fff;margin-bottom:22px;position:relative;overflow:hidden}
+.sector-hero::after{content:'';position:absolute;right:-30px;top:-30px;width:160px;height:160px;border-radius:50%;background:rgba(255,255,255,0.07)}
+.sector-hero .sic{font-size:48px;display:block;margin-bottom:10px;position:relative;z-index:1}
+.sector-hero h3{font-family:var(--fh);font-size:22px;font-weight:900;margin-bottom:8px;position:relative;z-index:1}
+.sector-hero p{font-size:13.5px;color:rgba(255,255,255,.76);line-height:1.75;max-width:620px;position:relative;z-index:1}
+.roles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:13px;margin-bottom:20px}
+.role-card{background:var(--white);border:1px solid var(--b100);border-radius:var(--rl);padding:16px;box-shadow:var(--sh)}
+.role-title{font-family:var(--fh);font-size:13.5px;font-weight:800;color:var(--b900);margin-bottom:5px}
+.role-pkg{display:inline-block;font-size:10px;font-weight:700;background:var(--green-lt);color:var(--green-dk);padding:2px 8px;border-radius:99px;margin-bottom:6px}
+.role-course{font-size:11px;color:var(--b600);font-weight:600;background:var(--b50);padding:2px 7px;border-radius:99px;display:inline-block;margin-bottom:7px}
+.role-desc{font-size:11.5px;color:var(--g500);line-height:1.6}
+.employers-box{background:var(--b50);border-radius:var(--rl);padding:16px 20px;margin-bottom:20px}
+.employers-box h4{font-family:var(--fh);font-size:11px;font-weight:800;color:var(--b700);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px}
+.emp-chips{display:flex;flex-wrap:wrap;gap:6px}
+.ec{font-size:11.5px;font-weight:600;background:var(--white);border:1px solid var(--b200);color:var(--b700);padding:4px 13px;border-radius:99px}
+
+/* PARENTS TAB */
+.parent-sections{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin-bottom:28px}
+.ps-card{background:var(--white);border:1px solid var(--b100);border-radius:var(--rl);padding:22px;box-shadow:var(--sh)}
+.ps-icon{font-size:32px;margin-bottom:12px;display:block}
+.ps-title{font-family:var(--fh);font-size:15px;font-weight:800;color:var(--b900);margin-bottom:8px}
+.ps-text{font-size:12.5px;color:var(--g600);line-height:1.75}
+.msg-box{background:var(--white);border:1px solid var(--b100);border-radius:var(--rl);padding:24px;box-shadow:var(--sh);margin-bottom:18px}
+.msg-title{font-family:var(--fh);font-size:15px;font-weight:800;color:var(--b900);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.msg-content{background:var(--g50);border:1px solid var(--g200);border-radius:var(--r);padding:16px;font-size:13px;color:var(--g700);line-height:1.8;white-space:pre-line}
+.copy-btn{margin-top:12px;padding:10px 22px;background:var(--b600);color:#fff;border:none;border-radius:99px;font-family:var(--fh);font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;display:flex;align-items:center;gap:6px}
+.copy-btn:hover{background:var(--b700)}
+.copy-btn.copied{background:var(--green)}
+.wa-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:#25d366;color:#fff;border:none;border-radius:99px;font-family:var(--fh);font-size:13px;font-weight:700;cursor:pointer;text-decoration:none;transition:all .2s;margin-top:10px}
+.wa-btn:hover{background:#1da851}
+
+/* COMPARE */
+.cmp-wrap{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px}
+.cmp-sel{width:100%;padding:11px 14px;border:1.5px solid var(--b200);border-radius:var(--r);font-family:var(--fb);font-size:13px;background:var(--white);color:var(--g800);outline:none;transition:border-color .2s}
+.cmp-sel:focus{border-color:var(--b500)}
+.cmp-table{width:100%;border-collapse:collapse;border-radius:var(--rl);overflow:hidden;box-shadow:var(--shm)}
+.cmp-table th{background:var(--b800);color:#fff;padding:13px 16px;font-family:var(--fh);font-size:12px;font-weight:700;text-align:left}
+.cmp-table th.c{text-align:center}
+.cmp-table td{padding:12px 16px;border-bottom:1px solid var(--b50);font-size:12.5px;vertical-align:top}
+.cmp-table tr:nth-child(even) td{background:var(--b50)}
+.cmp-table td.c{text-align:center}
+.cmp-empty{text-align:center;padding:48px;color:var(--g400);background:var(--white);border-radius:var(--rl);border:1.5px dashed var(--b200);font-size:14px}
+
+/* SEARCH */
+.search-bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:var(--white);border:1px solid var(--b100);border-radius:var(--rl);padding:14px 18px;box-shadow:var(--sh);margin-bottom:22px}
+.search-bar input,.search-bar select{padding:9px 14px;border:1.5px solid var(--b200);border-radius:var(--r);font-family:var(--fb);font-size:13px;background:var(--white);color:var(--g800);outline:none;transition:border .2s}
+.search-bar input:focus,.search-bar select:focus{border-color:var(--b500)}
+.search-bar input{flex:1;min-width:200px}
+.rc{font-size:12px;color:var(--g400);font-family:var(--fh);font-weight:700;margin-left:auto;white-space:nowrap}
+
+/* MISC */
+.hidden{display:none!important}
+a{color:var(--b600);text-decoration:none}
+a:hover{text-decoration:underline}
+.footer{text-align:center;padding:36px 20px;color:var(--g400);font-size:11.5px;border-top:1px solid var(--b100);margin-top:16px;line-height:1.8}
+@media(max-width:600px){.cmp-wrap{grid-template-columns:1fr}.extra-row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-inner">
+    <div class="hero-badge"><span class="dot"></span>Tamil Nadu · Class of 2025 · Biology Students</div>
+    <h1>Medical &amp; Health Science<br/><em>Complete Course Guide</em></h1>
+    <p class="hero-sub">Every course available after 12th Biology — from MBBS to Paramedical, Allied Health, Pharmacy, Veterinary, and Life Sciences — with career paths, salaries, and job scope.</p>
+    <div class="hero-pills">
+      <div class="hero-pill">🩺 Doctor Pathway</div>
+      <div class="hero-pill">💊 Pharmacy</div>
+      <div class="hero-pill">🏥 Nursing &amp; Allied</div>
+      <div class="hero-pill">🧬 Life Sciences</div>
+      <div class="hero-pill">🐾 Veterinary</div>
+      <div class="hero-pill">🌿 AYUSH</div>
+    </div>
+    <div class="hero-stats">
+      <div class="hs"><div class="n">50+</div><div class="l">Courses</div></div>
+      <div class="hs"><div class="n">6</div><div class="l">Categories</div></div>
+      <div class="hs"><div class="n">100+</div><div class="l">Job Roles</div></div>
+      <div class="hs"><div class="n">NEET</div><div class="l">+ Non-NEET</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<div class="nav">
+  <div class="nav-inner">
+    <button class="nb active" onclick="showSec('courses',this)">
+      <span class="nb-icon">🎓</span>
+      <span class="nb-label">All Courses</span>
+      <span class="nb-sub">50+ Programmes</span>
+    </button>
+    <button class="nb" onclick="showSec('career',this)">
+      <span class="nb-icon">💼</span>
+      <span class="nb-label">Career & Jobs</span>
+      <span class="nb-sub">6 Sectors · 100+ Roles</span>
+    </button>
+    <button class="nb" onclick="showSec('colleges',this)">
+      <span class="nb-icon">🏛️</span>
+      <span class="nb-label">Colleges</span>
+      <span class="nb-sub">Govt · Private · Deemed</span>
+    </button>
+    <button class="nb" onclick="showSec('admission',this)">
+      <span class="nb-icon">📋</span>
+      <span class="nb-label">Admission Guide</span>
+      <span class="nb-sub">NEET · DME · AYUSH</span>
+    </button>
+    <button class="nb" onclick="showSec('compare',this)">
+      <span class="nb-icon">⚖️</span>
+      <span class="nb-label">Compare</span>
+      <span class="nb-sub">Side-by-Side</span>
+    </button>
+    <button class="nb" onclick="showSec('parents',this)">
+      <span class="nb-icon">👨‍👩‍👧</span>
+      <span class="nb-label">For Parents</span>
+      <span class="nb-sub">Share · Guide · FAQ</span>
+    </button>
+  </div>
+</div>
+
+<!-- ===== COURSES ===== -->
+<div class="sec active" id="sec-courses">
+  <div class="sh"><h2>All Medical &amp; Health Science Courses</h2><p>Click any card to expand subjects, eligibility, and salary details. Filter by category or search by course name.</p></div>
+  <div class="search-bar">
+    <input type="text" id="courseSearch" placeholder="Search course name or abbreviation…" oninput="filterCourses()"/>
+    <select id="catFilter" onchange="filterCourses()">
+      <option value="">All Categories</option>
+      <option value="Doctor">Doctor Pathway (NEET)</option>
+      <option value="Nursing">Nursing</option>
+      <option value="Pharmacy">Pharmacy</option>
+      <option value="Paramedical">Paramedical &amp; Allied Health</option>
+      <option value="AYUSH">AYUSH &amp; Alternative Medicine</option>
+      <option value="Life Science">Life Sciences &amp; Biotechnology</option>
+      <option value="Veterinary">Veterinary &amp; Agriculture</option>
+      <option value="Diploma">Diploma / Certificate</option>
+    </select>
+    <select id="neetFilter" onchange="filterCourses()">
+      <option value="">NEET &amp; Non-NEET</option>
+      <option value="NEET">NEET Required</option>
+      <option value="No NEET">Without NEET</option>
+    </select>
+    <span class="rc" id="courseCount"></span>
+  </div>
+  <div class="cat-nav" id="catNav"></div>
+  <div class="courses-wrap" id="coursesWrap"></div>
+</div>
+
+<!-- ===== CAREER ===== -->
+<div class="sec" id="sec-career">
+  <div class="sh"><h2>Career &amp; Job Scope</h2><p>Explore every sector where medical graduates work — roles, salary ranges, top employers, and growth path.</p></div>
+  <div class="sector-tabs" id="sectorTabs"></div>
+  <div id="sectorPanels"></div>
+</div>
+
+<!-- ===== ADMISSION ===== -->
+<div class="sec" id="sec-admission">
+  <div class="sh"><h2>Admission Process</h2><p>Step-by-step guide for Tamil Nadu medical admissions — NEET, TNEA, and direct merit routes.</p></div>
+
+  <div style="margin-bottom:28px">
+    <div style="font-family:var(--fh);font-size:17px;font-weight:800;color:var(--b900);margin-bottom:16px">Admission Routes at a Glance</div>
+    <div class="route-cards">
+      <div class="route-card">
+        <span class="route-icon">🩺</span>
+        <div class="route-name">NEET-UG Route</div>
+        <div class="route-desc">National level entrance exam for all clinical medicine courses. Conducted by NTA. Score valid for all states including Tamil Nadu.</div>
+        <div class="route-courses">Covers: MBBS · BDS · BAMS · BHMS · BSMS · BUMS · BNYS · BVSc · BPTH</div>
+      </div>
+      <div class="route-card">
+        <span class="route-icon">🏥</span>
+        <div class="route-name">TN DME Merit Route</div>
+        <div class="route-desc">Tamil Nadu's Directorate of Medical Education conducts centralised counselling for paramedical and allied health courses. No separate entrance exam — purely 12th marks based.</div>
+        <div class="route-courses">Covers: BSc Nursing · BASLP · BMLT · BOT · Radiology · Optometry · BSc MLT etc.</div>
+      </div>
+      <div class="route-card">
+        <span class="route-icon">💊</span>
+        <div class="route-name">Direct / University Route</div>
+        <div class="route-desc">For Pharmacy, Biotechnology, Life Sciences. Admission through TNEA (for BTech Biomedical), university-level counselling, or direct merit. No NEET needed.</div>
+        <div class="route-courses">Covers: B.Pharm · D.Pharm · BSc Biotech · BSc Microbiology · BSc Nutrition · BSc Forensic · BTech Food Tech</div>
+      </div>
+      <div class="route-card">
+        <span class="route-icon">🌿</span>
+        <div class="route-name">AYUSH Counselling</div>
+        <div class="route-desc">AACCC (AYUSH Admission Central Counselling Committee) handles national counselling for BAMS, BHMS, BUMS after NEET. TN has its own state quota counselling too.</div>
+        <div class="route-courses">Covers: BAMS · BHMS · BUMS · BSMS · BNYS</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="font-family:var(--fh);font-size:17px;font-weight:800;color:var(--b900);margin-bottom:18px">NEET UG – Step by Step (MBBS/BDS/AYUSH)</div>
+  <div class="timeline">
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-step">Step 1 · Now (May 2025)</div><div class="tl-title">Check Eligibility</div><div class="tl-desc">PCB in 12th with minimum 50% aggregate (45% for BC/OBC, 40% for SC/ST). Age: 17–25 years as of December 31, 2025. NEET results expected by June 2025.</div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-step">Step 2 · June 2025</div><div class="tl-title">NEET Counselling Registration</div><div class="tl-desc">Register at <a href="https://mcc.nic.in" target="_blank">mcc.nic.in</a> for All India Quota (15% seats). Register at <a href="https://tnmedicalselection.net" target="_blank">tnmedicalselection.net</a> for Tamil Nadu State Quota (85% seats).</div><div class="ibox"><strong>TN State Quota:</strong> Register on tnmedicalselection.net · Choose college + course preferences · Seat allotment in multiple rounds · Report to college with documents.</div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-step">Step 3 · June–July 2025</div><div class="tl-title">DME Paramedical Counselling (Non-NEET)</div><div class="tl-desc">For nursing, allied health, paramedical courses — register at tnmedicalselection.net separately. Merit list based entirely on 12th Biology marks. No entrance exam. Multiple counselling rounds.</div><div class="ibox"><strong>No NEET needed</strong> for: BSc Nursing · BASLP · BOT · BMLT · Radiology · Optometry · Cardiac Tech etc.</div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-step">Step 4 · July–August 2025</div><div class="tl-title">Document Verification &amp; College Reporting</div><div class="tl-desc">Report to allotted college within deadline. Carry originals + 2 sets of photocopies of all required documents.</div>
+      <div class="doc-grid">
+        <div class="doc-item">✅ 10th Marksheet &amp; Certificate</div>
+        <div class="doc-item">✅ 12th Marksheet (Original)</div>
+        <div class="doc-item">✅ Transfer Certificate (TC)</div>
+        <div class="doc-item">✅ Community Certificate</div>
+        <div class="doc-item">✅ Nativity Certificate</div>
+        <div class="doc-item">✅ NEET Scorecard (if NEET route)</div>
+        <div class="doc-item">✅ Aadhar Card</div>
+        <div class="doc-item">✅ 10 Passport Size Photos</div>
+        <div class="doc-item">✅ Income Certificate</div>
+        <div class="doc-item">✅ Medical Fitness Certificate</div>
+      </div>
+    </div>
+    <div class="tl-item"><div class="tl-dot" style="background:var(--green)"></div><div class="tl-step">Scholarships</div><div class="tl-title">Fee Support &amp; Scholarships</div><div class="tl-desc">Multiple financial support options available for medical students.</div>
+      <div class="ibox" style="margin-top:6px">
+        <strong>TN Govt Fee Reimbursement:</strong> BC/MBC/SC/ST with family income &lt; ₹2.5L — full tuition fee reimbursed for govt medical colleges.<br/>
+        <strong>National Scholarship Portal:</strong> scholarships.gov.in — apply August–September after admission.<br/>
+        <strong>Post-Matric Scholarship:</strong> SC/ST through tnscbcscholarship.in<br/>
+        <strong>First Graduate Scholarship:</strong> If you're the first in the family to attend college — mention in application form.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== COMPARE ===== -->
+<div class="sec" id="sec-compare">
+  <div class="sh"><h2>Compare Two Courses</h2><p>Select any two courses side-by-side to compare duration, NEET requirement, salary, and career paths.</p></div>
+  <div class="cmp-wrap">
+    <select class="cmp-sel" id="cmp1" onchange="renderCompare()"><option value="">-- Select Course 1 --</option></select>
+    <select class="cmp-sel" id="cmp2" onchange="renderCompare()"><option value="">-- Select Course 2 --</option></select>
+  </div>
+  <div id="cmpResult"><div class="cmp-empty">⚖️<br/><br/>Select two courses above to compare them side-by-side.</div></div>
+</div>
+
+<!-- ===== COLLEGES ===== -->
+<div class="sec" id="sec-colleges">
+  <div class="sh"><h2>🏛️ College Directory – Tamil Nadu</h2><p>Major government, autonomous &amp; well-known private colleges across all categories. Filter by district, course type, or college type.</p></div>
+  <div style="background:linear-gradient(135deg,var(--b900),var(--b700));border-radius:var(--rl);padding:20px 24px;margin-bottom:24px;display:flex;flex-wrap:wrap;gap:16px;align-items:center">
+    <div style="color:#fff;flex:1;min-width:220px"><div style="font-family:var(--fh);font-size:18px;font-weight:800;margin-bottom:4px">Tamil Nadu Medical Education Network</div><div style="font-size:13px;color:rgba(255,255,255,.7)">Affiliated to Tamil Nadu Dr. M.G.R. Medical University · Approved by NMC / INC / PCI</div></div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <div style="background:rgba(255,255,255,.12);border-radius:var(--r);padding:10px 18px;text-align:center"><div style="font-family:var(--fh);font-size:22px;font-weight:900;color:#fff">75+</div><div style="font-size:10px;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:.06em">MBBS Colleges</div></div>
+      <div style="background:rgba(255,255,255,.12);border-radius:var(--r);padding:10px 18px;text-align:center"><div style="font-family:var(--fh);font-size:22px;font-weight:900;color:#fff">40+</div><div style="font-size:10px;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:.06em">Dental Colleges</div></div>
+      <div style="background:rgba(255,255,255,.12);border-radius:var(--r);padding:10px 18px;text-align:center"><div style="font-family:var(--fh);font-size:22px;font-weight:900;color:#fff">300+</div><div style="font-size:10px;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:.06em">Nursing Colleges</div></div>
+      <div style="background:rgba(255,255,255,.12);border-radius:var(--r);padding:10px 18px;text-align:center"><div style="font-family:var(--fh);font-size:22px;font-weight:900;color:#fff">200+</div><div style="font-size:10px;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:.06em">Pharmacy Colleges</div></div>
+    </div>
+  </div>
+  <div class="search-bar">
+    <input type="text" id="colSearch" placeholder="Search college name or city…" oninput="filterColleges()"/>
+    <select id="colCatFilter" onchange="filterColleges()"><option value="">All Course Types</option><option value="MBBS">MBBS</option><option value="Dental">Dental (BDS)</option><option value="Nursing">Nursing</option><option value="Pharmacy">Pharmacy</option><option value="AYUSH">AYUSH</option><option value="Paramedical">Paramedical &amp; Allied</option><option value="Veterinary">Veterinary</option><option value="Life Science">Life Sciences</option></select>
+    <select id="colTypeFilter" onchange="filterColleges()"><option value="">All Types</option><option value="Government">Government</option><option value="Private">Private</option><option value="Deemed">Deemed University</option><option value="Central">Central / AIIMS</option></select>
+    <select id="colDistFilter" onchange="filterColleges()"><option value="">All Districts</option></select>
+    <span class="rc" id="colCount"></span>
+  </div>
+  <div id="colGrid" class="colleges-grid"></div>
+</div>
+
+<!-- ===== PARENTS ===== -->
+<div class="sec" id="sec-parents">
+  <div class="sh"><h2>For Parents — Your Complete Guide</h2><p>Understanding your child's options, costs, and how to support their medical career decision confidently.</p></div>
+  <div class="parent-sections">
+    <div class="ps-card">
+      <span class="ps-icon">💡</span>
+      <div class="ps-title">MBBS is NOT the only option</div>
+      <div class="ps-text">Many parents believe only MBBS = medical career. But Tamil Nadu has 50+ medical and health science courses. A physiotherapist, pharmacist, lab technologist, or nurse earns well and works in hospitals just like doctors. Every role in a hospital matters equally.</div>
+    </div>
+    <div class="ps-card">
+      <span class="ps-icon">💰</span>
+      <div class="ps-title">Cost Reality Check</div>
+      <div class="ps-text"><strong>Govt MBBS:</strong> ₹10K–₹30K/year tuition<br/><strong>Private MBBS:</strong> ₹10L–₹25L/year<br/><strong>BDS Govt:</strong> ₹20K–₹50K/year<br/><strong>BSc Nursing:</strong> ₹30K–₹80K/year<br/><strong>Paramedical Govt:</strong> ₹8K–₹15K/year<br/><strong>B.Pharm:</strong> ₹50K–₹1.5L/year<br/><br/>BC/MBC/SC/ST students get full fee reimbursement in govt colleges.</div>
+    </div>
+    <div class="ps-card">
+      <span class="ps-icon">🌍</span>
+      <div class="ps-title">Global Opportunity</div>
+      <div class="ps-text">Tamil Nadu medical graduates are in demand globally. Nurses go to UK, USA, Gulf countries. Pharmacists work in the US and Canada. Allied health professionals are hired by hospitals in Singapore, UAE, and Australia. A medical degree from TN is a passport to global careers.</div>
+    </div>
+    <div class="ps-card">
+      <span class="ps-icon">🏛️</span>
+      <div class="ps-title">Government Jobs Available</div>
+      <div class="ps-text">Every paramedical course has government job opportunities — TNPSC Group A/B/C recruitments for lab technicians, pharmacists, nurses, physiotherapists. Central government recruits through ESIC, AIIMS, railways, defence. Job security is strong in medical fields.</div>
+    </div>
+    <div class="ps-card">
+      <span class="ps-icon">📊</span>
+      <div class="ps-title">NEET Score Strategy</div>
+      <div class="ps-text">If NEET score is high (650+): Aim for MBBS govt college or BDS.<br/>Score 500–650: BAMS, BHMS, BSMS, BVSC, Private MBBS.<br/>Score 300–500: AYUSH courses, Govt Paramedical seats.<br/>Below 300 or no NEET: BSc Nursing, Allied Health, Pharmacy, Life Sciences — all excellent careers without NEET!</div>
+    </div>
+    <div class="ps-card">
+      <span class="ps-icon">🤝</span>
+      <div class="ps-title">How to Support Your Child</div>
+      <div class="ps-text">1. Visit the college before admission — don't rely only on brochures.<br/>2. Talk to seniors who studied there (not just management).<br/>3. Check hospital affiliations — clinical exposure is crucial in medical education.<br/>4. Understand the course fully before comparing it to MBBS.<br/>5. Your child's interest matters most — forced choices lead to dropouts.</div>
+    </div>
+  </div>
+
+  <div style="font-family:var(--fh);font-size:17px;font-weight:800;color:var(--b900);margin-bottom:16px">📱 Share with Students &amp; Parents</div>
+
+  <div class="msg-box">
+    <div class="msg-title">📲 WhatsApp Message for Students</div>
+    <div class="msg-content" id="msg-student">🎓 நண்பர்களே / Dear Students,
+
+12th முடித்த உங்களுக்கு — Medical & Health Science courses பற்றிய complete guide ready!
+
+✅ MBBS, BDS, BAMS, BHMS, BSMS
+✅ BSc Nursing, BPT, B.Pharm
+✅ BMLT, Radiology, Optometry, Cardiac Tech
+✅ BSc Biotech, Microbiology, Nutrition
+✅ Veterinary, AYUSH & more — 50+ courses!
+
+💡 NEET இல்லாமலும் medical field-ல் career possible!
+💼 Hospital, Research, Abroad, Government jobs எல்லாம் available.
+
+[Share this guide link or file with them]
+
+🌟 உங்கள் interest & mark பார்த்து correct course தேர்ந்தெடுங்கள்.</div>
+    <button class="copy-btn" onclick="copyMsg('msg-student',this)">📋 Copy Message</button>
+    <a class="wa-btn" href="#" onclick="sendWA('student');return false">📲 Share via WhatsApp</a>
+  </div>
+
+  <div class="msg-box">
+    <div class="msg-title">👨‍👩‍👧 WhatsApp Message for Parents (Tamil)</div>
+    <div class="msg-content" id="msg-parent">🙏 மதிப்பிற்குரிய பெற்றோர்களே,
+
+உங்கள் பிள்ளை 12th முடித்துவிட்டார். இப்போது சரியான படிப்பு தேர்வு செய்வது மிக முக்கியம்.
+
+⚕️ Medical field-ல் MBBS மட்டும் இல்லை!
+
+👉 NEET மூலம்: MBBS, BDS, BAMS, BHMS, BSMS
+👉 NEET இல்லாமல்: BSc Nursing, Pharmacy, Lab Technology, Physiotherapy, Optometry
+
+💰 Government college-ல் மிகவும் குறைந்த fees:
+• BSc Nursing: ₹8,000–₹15,000/year
+• Paramedical: ₹8,000–₹12,000/year
+• BC/MBC/SC/ST students: Full fee reimbursement!
+
+🌍 Nurse, Pharmacist, Lab Technician — Gulf, UK, USA-ல் வேலை கிடைக்கும்.
+
+உங்கள் பிள்ளையின் interest பாருங்கள் — அதுவே சரியான choice.
+
+இந்த guide file-ஐ open பண்ணி எல்லா courses பாருங்கள்.</div>
+    <button class="copy-btn" onclick="copyMsg('msg-parent',this)">📋 Copy Message</button>
+    <a class="wa-btn" href="#" onclick="sendWA('parent');return false">📲 Share via WhatsApp</a>
+  </div>
+
+  <div class="msg-box">
+    <div class="msg-title">📧 Email / Notice Board Message (English)</div>
+    <div class="msg-content" id="msg-email">Subject: Medical & Health Science Career Guide for 12th Students – 2025
+
+Dear Students and Parents,
+
+Congratulations on completing your 12th Standard!
+
+For all Biology students, there are over 50 medical and health science courses available in Tamil Nadu. You do NOT need MBBS to build a successful medical career.
+
+NEET-Required Courses:
+MBBS (5.5 yrs) · BDS (5 yrs) · BAMS/BHMS/BSMS (5.5 yrs) · BVSC (5 yrs) · BPT (4.5 yrs)
+
+Without NEET – Excellent Careers:
+BSc Nursing (4 yrs) · B.Pharm (4 yrs) · BMLT (3 yrs) · BASLP (4 yrs)
+BSc Radiology · BSc Optometry · BSc Cardiac Technology
+BSc Biotechnology · BSc Microbiology · BSc Nutrition & Dietetics
+
+Government Job Opportunities available in ALL paramedical fields through TNPSC.
+Gulf & International opportunities available for Nurses, Pharmacists & Allied Health graduates.
+
+Admission Portal: tnmedicalselection.net
+NEET Counselling: mcc.nic.in
+
+Please review the attached course guide and feel free to contact us for guidance.
+
+With regards,
+[Your Name / School / Counselling Centre]</div>
+    <button class="copy-btn" onclick="copyMsg('msg-email',this)">📋 Copy Message</button>
+  </div>
+</div>
+
+<div class="footer">
+  Tamil Nadu Medical &amp; Health Science Course Guide 2025 · Data sourced from DME Tamil Nadu, tnmedicalselection.net, NTA NEET, Anna University, TANUVAS<br/>
+  Always verify current details at <a href="https://tnmedicalselection.net" target="_blank">tnmedicalselection.net</a> before making decisions · Compiled for student and parent awareness
+</div>
+
+<script>
+// ─── DATA ───────────────────────────────────────────────────────────────────
+const courses = [
+// DOCTOR PATHWAY
+{id:'mbbs',name:'Bachelor of Medicine & Bachelor of Surgery',abbr:'MBBS',cat:'Doctor',icon:'🩺',iconBg:'#fee2e2',neet:'NEET',dur:'5.5 yrs + 1yr Internship',desc:'The most comprehensive medical degree. Qualifies you to become a licensed medical doctor. Covers anatomy, physiology, pharmacology, surgery, and clinical practice.',jobs:['General Physician','Surgeon','Paediatrician','Gynaecologist','Cardiologist (PG)','Psychiatrist (PG)','Emergency Doctor','Medical Officer (Govt)'],where:['Govt/Private Hospitals','Primary Health Centres','Defence / ESIC','Research Institutions','Abroad (NMC approved)'],subjects:['Anatomy','Physiology','Biochemistry','Pathology','Pharmacology','Microbiology','Community Medicine','Surgery','Medicine','Obstetrics & Gynaecology'],demand:95,salary:'₹8–20+ LPA (fresher); ₹20–60+ LPA (specialist)',salaryPct:90,admission:'NEET-UG → TN State Counselling (tnmedicalselection.net) or MCC AIQ'},
+{id:'bds',name:'Bachelor of Dental Surgery',abbr:'BDS',cat:'Doctor',icon:'🦷',iconBg:'#fce7f3',neet:'NEET',dur:'5 yrs + 1yr Internship',desc:'Dental medicine degree covering oral health, dental surgery, orthodontics, and prosthodontics. Qualifies you as a licensed dental surgeon.',jobs:['Dental Surgeon','Orthodontist (PG)','Oral Surgeon (PG)','Endodontist (PG)','Paediatric Dentist','Public Health Dentist','Dental Faculty'],where:['Govt Dental Hospitals','Private Dental Clinics','Corporate Dental Chains','Defence / Railways','Teaching Hospitals'],subjects:['Oral Anatomy','Dental Pharmacology','General Surgery','Oral Medicine','Orthodontics','Oral Surgery','Prosthodontics'],demand:80,salary:'₹3–8 LPA (fresher); ₹10–30+ LPA (specialist)',salaryPct:65,admission:'NEET-UG → TN Dental Counselling'},
+{id:'bpt',name:'Bachelor of Physiotherapy',abbr:'BPT',cat:'Doctor',icon:'🦾',iconBg:'#e0f2fe',neet:'NEET',dur:'4.5 yrs + 6 months Internship',desc:'Train to be a physiotherapist — helping patients recover from injuries, strokes, surgeries, and neurological conditions through exercise therapy and rehabilitation.',jobs:['Physiotherapist','Sports Therapist','Neuro Physiotherapist','Paediatric PT','Cardiac Rehab PT','Community Rehabilitation Worker','PT Faculty'],where:['Multi-specialty Hospitals','Sports Clubs & Academies','Rehabilitation Centres','Schools for Special Children','Gulf / UK / Australia','Govt Hospitals (TNPSC)'],subjects:['Anatomy','Biomechanics','Electrotherapy','Exercise Therapy','Neurology','Musculoskeletal PT','Cardiopulmonary PT'],demand:85,salary:'₹2.5–6 LPA; ₹8–20 LPA abroad',salaryPct:60,admission:'NEET-UG → TN Physiotherapy Counselling via DME'},
+
+// NURSING
+{id:'bscnursing',name:'B.Sc Nursing',abbr:'BSc Nursing',cat:'Nursing',icon:'👩‍⚕️',iconBg:'#dcfce7',neet:'No NEET',dur:'4 yrs + 6 months Internship',desc:'Professional nursing degree covering patient care, clinical nursing, midwifery, community health, and medical-surgical nursing. Huge demand in India and abroad.',jobs:['Staff Nurse','ICU Nurse','OT Nurse','Paediatric Nurse','Midwife','Community Health Nurse','Nurse Educator','Head Nurse / Matron'],where:['Govt/Pvt Hospitals','ICU / OT / Emergency','UK NHS (direct recruitment)','Gulf Hospitals','USA / Canada / Australia','Schools & Community Health'],subjects:['Anatomy','Nutrition','Medical-Surgical Nursing','Paediatric Nursing','Community Health','Mental Health Nursing','Midwifery','Research'],demand:95,salary:'₹2.5–5 LPA India; ₹8–20 LPA Gulf/UK',salaryPct:70,admission:'TN DME Merit Counselling (12th Biology marks based) at tnmedicalselection.net'},
+{id:'gnm',name:'Diploma in General Nursing & Midwifery',abbr:'GNM',cat:'Nursing',icon:'🏥',iconBg:'#dcfce7',neet:'No NEET',dur:'3 yrs + 6 months Internship',desc:'Faster route to nursing career. Trains students in general nursing, midwifery, and community health. Accepted in Govt hospitals and abroad after registration with State Nursing Council.',jobs:['Staff Nurse','Auxiliary Nurse Midwife','Community Health Nurse','School Nurse'],where:['Govt & Pvt Hospitals','PHCs / CHCs','School Health Programmes','Gulf (after bridge course)'],subjects:['Anatomy','Medical Nursing','Surgical Nursing','Midwifery','Child Health','Community Health'],demand:80,salary:'₹2–4 LPA; ₹6–14 LPA Gulf',salaryPct:55,admission:'TN DME Counselling → State Nursing Registration'},
+{id:'anm',name:'Auxiliary Nurse Midwife',abbr:'ANM',cat:'Nursing',icon:'🤱',iconBg:'#dcfce7',neet:'No NEET',dur:'2 yrs + 6 months Internship',desc:'Entry-level nursing diploma focused on maternal and child health, immunisation, and community health outreach. Strong government recruitment through TNPSC.',jobs:['ANM / Health Worker','Village Health Nurse','Immunisation Nurse','Family Welfare Worker'],where:['Primary Health Centres','Govt Hospitals','Government Health Programmes','Rural Health Outreach'],subjects:['Anatomy','Child Health & Nutrition','Maternal Health','Community Health','Communicable Diseases'],demand:75,salary:'₹1.8–3 LPA Govt; ₹2.5–4 LPA Pvt',salaryPct:40,admission:'TN DME Nursing Counselling / Direct College Admission'},
+{id:'postbscnursing',name:'Post Basic B.Sc Nursing',abbr:'Post Basic BSc',cat:'Nursing',icon:'👩‍🔬',iconBg:'#dcfce7',neet:'No NEET',dur:'2 yrs (for GNM holders)',desc:'Upgrading course for GNM diploma holders to get a full B.Sc Nursing degree. Opens up senior nursing positions, teaching roles, and international licensing.',jobs:['Senior Staff Nurse','Nursing Supervisor','Nursing Educator','Clinical Trainer'],where:['Tertiary Hospitals','Nursing Colleges','Private Multispeciality Hospitals'],subjects:['Advanced Nursing','Research & Statistics','Leadership in Nursing','Specialty Nursing'],demand:70,salary:'₹3–6 LPA (upgraded career)',salaryPct:55,admission:'TN DME Counselling — for GNM qualified candidates'},
+
+// PHARMACY
+{id:'bpharm',name:'Bachelor of Pharmacy',abbr:'B.Pharm',cat:'Pharmacy',icon:'💊',iconBg:'#fef3c7',neet:'No NEET',dur:'4 yrs',desc:'Study the science of drugs — their development, formulation, quality control, and clinical application. Works in hospitals, pharma industry, R&D, and retail pharmacies.',jobs:['Clinical Pharmacist','Drug Inspector','Pharma R&D Scientist','Hospital Pharmacist','Regulatory Affairs Officer','Medical Representative','Quality Control Analyst'],where:['Hospitals & Pharmacies','Pharmaceutical Companies (Sun Pharma, Cipla, Dr Reddy\'s)','Drug Control Authority','Medical Coding Companies','USA / Canada (after licensing)'],subjects:['Pharmaceutical Chemistry','Pharmacology','Pharmacognosy','Pharmaceutics','Clinical Pharmacy','Biopharmaceutics','Drug Regulatory Affairs'],demand:82,salary:'₹3–7 LPA; ₹10–25 LPA (MNC / abroad)',salaryPct:65,admission:'University merit-based / TNEA Pharmacy counselling via DOTE'},
+{id:'dpharm',name:'Diploma in Pharmacy',abbr:'D.Pharm',cat:'Pharmacy',icon:'🧴',iconBg:'#fef3c7',neet:'No NEET',dur:'2 yrs',desc:'Shorter pharmacy qualification. Allows independent retail pharmacy practice after registration with Pharmacy Council. Stepping stone to B.Pharm via lateral entry.',jobs:['Pharmacist (Retail)','Hospital Pharmacist (Compounder)','Medical Store Owner','Pharma Sales Executive'],where:['Retail Pharmacies','Govt Hospital Dispensaries','Drug Manufacturing Firms'],subjects:['Pharmaceutics','Pharmaceutical Chemistry','Pharmacognosy','Pharmacology','Biochemistry'],demand:70,salary:'₹1.8–3.5 LPA',salaryPct:40,admission:'Direct college admission or state pharmacy counselling'},
+{id:'pharmd',name:'Doctor of Pharmacy',abbr:'Pharm.D',cat:'Pharmacy',icon:'🔬',iconBg:'#fef3c7',neet:'No NEET',dur:'6 yrs (including clinical training)',desc:'Highest pharmacy qualification. Integrates clinical pharmacy with patient care. Pharmacists with Pharm.D work alongside doctors in hospitals managing medication therapy.',jobs:['Clinical Pharmacist (Advanced)','Drug Information Specialist','Pharmacy Researcher','Pharma Regulatory Expert','Pharmacy Faculty'],where:['Teaching Hospitals','Super-specialty Centres','Pharmaceutical R&D Labs','Drug Regulatory Bodies (CDSCO)'],subjects:['Clinical Pharmacokinetics','Drug Therapy Management','Pharmacy Practice','Hospital Pharmacy','Clinical Research'],demand:78,salary:'₹5–12 LPA; Higher in teaching / research',salaryPct:72,admission:'Merit-based through university'},
+
+// PARAMEDICAL & ALLIED HEALTH
+{id:'bmlt',name:'B.Sc Medical Laboratory Technology',abbr:'BMLT',cat:'Paramedical',icon:'🧫',iconBg:'#ede9fe',neet:'No NEET',dur:'3 yrs + 6 months Internship',desc:'Train to run diagnostic laboratory tests — blood analysis, urine analysis, microbiology cultures, histopathology, and biochemical assays. Every hospital needs lab technologists.',jobs:['Lab Technician / Technologist','Pathology Lab Supervisor','Blood Bank Technician','Microbiologist Technician','Research Lab Assistant','Lab Manager'],where:['Diagnostic Labs (Dr Lal, Thyrocare, SRL)','Hospital Pathology Depts','Blood Banks','Research Institutes','Govt Hospital Labs (TNPSC)'],subjects:['Haematology','Biochemistry','Microbiology','Pathology','Blood Bank Technology','Immunology','Clinical Biochemistry'],demand:88,salary:'₹2.5–5 LPA; ₹8–16 LPA Gulf',salaryPct:60,admission:'TN DME Merit Counselling'},
+{id:'radiology',name:'B.Sc Radiology & Imaging Technology',abbr:'BSc Radiology',cat:'Paramedical',icon:'🩻',iconBg:'#ede9fe',neet:'No NEET',dur:'3 yrs + 6 months Internship',desc:'Operate imaging equipment — X-ray, CT scan, MRI, ultrasound, and nuclear medicine cameras. Critical diagnostic support in every hospital.',jobs:['Radiographer','CT/MRI Technician','Ultrasound Technician','Nuclear Medicine Technologist','Radiation Safety Officer'],where:['Hospital Radiology Depts','Diagnostic Imaging Centres','Telemedicine Companies','Defence Medical Services','Gulf / UK Hospitals'],subjects:['Radiographic Anatomy','X-Ray Technology','CT & MRI Physics','Radiation Safety','Ultrasound Technology','Nuclear Medicine'],demand:87,salary:'₹3–6 LPA; ₹10–20 LPA Gulf/UK',salaryPct:65,admission:'TN DME Merit Counselling at tnmedicalselection.net'},
+{id:'otat',name:'B.Sc Operation Theatre & Anaesthesia Technology',abbr:'OTAT',cat:'Paramedical',icon:'🏥',iconBg:'#ede9fe',neet:'No NEET',dur:'3 yrs + 6 months Internship',desc:'Assist surgeons and anaesthetists in the operation theatre. Set up OT equipment, manage anaesthesia machines, sterilise instruments, and monitor patient vitals during surgery.',jobs:['OT Technician','Anaesthesia Technician','Surgical Assistant','ICU Support Technician'],where:['Multi-specialty Hospital OTs','Govt Hospitals','Day-care Surgery Centres','Trauma Centres'],subjects:['Anatomy','Anaesthesia Technology','Surgical Instruments','Sterilisation Techniques','Patient Monitoring','Pharmacology'],demand:80,salary:'₹2.5–5 LPA; ₹8–15 LPA Gulf',salaryPct:58,admission:'TN DME Merit Counselling'},
+{id:'baslp',name:'B.Sc Audiology, Speech & Language Pathology',abbr:'BASLP',cat:'Paramedical',icon:'👂',iconBg:'#ede9fe',neet:'No NEET',dur:'4 yrs + 6 months Internship',desc:'Diagnose and treat speech, language, and hearing disorders. Work with children who have autism, stuttering, voice disorders, and adults with stroke-related speech issues.',jobs:['Audiologist','Speech-Language Pathologist','Hearing Aid Specialist','Special Education Support','School Therapist'],where:['ENT Hospitals','Schools for Hearing Impaired','Special Needs Schools','Rehab Centres','Private Practice','Abroad (High Demand)'],subjects:['Anatomy of Ear & Speech','Audiology','Speech & Language Disorders','Child Language Development','Hearing Aid Fitting','Clinical Practice'],demand:83,salary:'₹2.5–5 LPA; ₹10–22 LPA Abroad',salaryPct:62,admission:'TN DME Merit Counselling'},
+{id:'bot',name:'B.Sc Occupational Therapy',abbr:'BOT',cat:'Paramedical',icon:'🖐️',iconBg:'#ede9fe',neet:'No NEET',dur:'4.5 yrs + 6 months Internship',desc:'Help people recover daily life activities after illness, injury, or disability. Work with stroke patients, cerebral palsy children, psychiatric patients, and elderly people to regain independence.',jobs:['Occupational Therapist','Paediatric OT','Neuro Rehab Therapist','Work Rehab Specialist','Mental Health OT'],where:['Rehabilitation Hospitals','Schools for Special Needs Children','Psychiatric Centres','Geriatric Care Homes','Abroad (UK / Australia / Canada)'],subjects:['Occupational Science','Neurological OT','Paediatric OT','Mental Health OT','Biomechanics','Assistive Technology'],demand:80,salary:'₹2.5–5 LPA; ₹12–25 LPA Abroad',salaryPct:60,admission:'TN DME Merit Counselling'},
+{id:'optom',name:'Bachelor of Optometry',abbr:'B.Optom',cat:'Paramedical',icon:'👁️',iconBg:'#ede9fe',neet:'No NEET',dur:'4 yrs + 1 yr Internship',desc:'Test vision, prescribe spectacles and lenses, detect eye diseases, and provide pre/post-operative care for eye surgeries. Increasing demand with rising screen-time eye problems.',jobs:['Optometrist','Vision Therapist','Contact Lens Practitioner','Ophthalmic Assistant','Low Vision Specialist'],where:['Eye Hospitals (Aravind, Sankara Nethralaya)','Optical Retail Chains','Community Eye Care Camps','Corporate Wellness'],subjects:['Optics','Ocular Anatomy','Visual Science','Clinical Optometry','Contact Lens Practice','Ocular Disease'],demand:84,salary:'₹2.5–5 LPA; ₹8–18 LPA Gulf/UK',salaryPct:60,admission:'TN DME Counselling / University Merit'},
+{id:'cardiac',name:'B.Sc Cardiac Technology',abbr:'Cardiac Tech',cat:'Paramedical',icon:'❤️',iconBg:'#fee2e2',neet:'No NEET',dur:'3 yrs + 6 months Internship',desc:'Operate ECG machines, echocardiography equipment, Holter monitors, and cardiac catheterisation lab equipment. Support cardiologists in diagnosing and treating heart conditions.',jobs:['Cardiac Technician','Catheterisation Lab Tech','Echo Technician','Cardiac Monitor Specialist','ICU Cardiac Support'],where:['Cardiology Hospitals','Cath Labs','ICU / CCU Units','Super-specialty Cardiac Centres','Gulf Hospitals'],subjects:['Cardiac Anatomy','ECG Interpretation','Echocardiography','Cath Lab Procedures','Haemodynamics','Cardiac Pharmacology'],demand:85,salary:'₹3–6 LPA; ₹10–18 LPA Gulf',salaryPct:65,admission:'TN DME Merit Counselling'},
+{id:'dmlt',name:'Diploma in Medical Laboratory Technology',abbr:'DMLT',cat:'Diploma',icon:'🔬',iconBg:'#f3e8ff',neet:'No NEET',dur:'2 yrs',desc:'Quick entry to laboratory career. Covers blood tests, urine analysis, clinical biochemistry, and microbiology. Popular choice for students wanting quick employment.',jobs:['Lab Technician','Phlebotomist','Blood Bank Assistant','Biochemistry Lab Assistant'],where:['Diagnostic Labs','Govt Hospital Labs','Private Clinics','Collection Centres'],subjects:['Haematology Basics','Biochemistry','Microbiology','Urine Analysis','Blood Grouping'],demand:75,salary:'₹1.8–3.5 LPA',salaryPct:42,admission:'Direct college admission / TN Paramedical Diploma Counselling'},
+{id:'dialysis',name:'Diploma in Dialysis Technology',abbr:'Dialysis Tech',cat:'Diploma',icon:'🩸',iconBg:'#f3e8ff',neet:'No NEET',dur:'2 yrs',desc:'Operate dialysis machines for kidney failure patients. With rising kidney disease burden in India and globally, dialysis technicians are in high demand.',jobs:['Dialysis Technician','Renal Care Technician','Dialysis Unit Supervisor'],where:['Nephrology Hospitals','Dialysis Centres','Gulf Countries','Govt Hospitals'],subjects:['Renal Anatomy','Dialysis Machine Operation','Water Treatment for Dialysis','Patient Care in Kidney Disease'],demand:82,salary:'₹2–4 LPA; ₹8–15 LPA Gulf',salaryPct:55,admission:'Direct college admission / TN Paramedical Diploma Counselling'},
+{id:'dott',name:'Diploma in OT Technology',abbr:'DOTT',cat:'Diploma',icon:'⚕️',iconBg:'#f3e8ff',neet:'No NEET',dur:'2 yrs',desc:'Entry-level diploma for operation theatre support roles. Quicker path to OT technician jobs in hospitals.',jobs:['OT Technician','Sterile Supply Technician','Surgical Instrument Handler'],where:['Govt & Pvt Hospitals','Surgical Centres','Day-care Clinics'],subjects:['Anatomy Basics','OT Instruments','Sterilisation','Anaesthesia Basics','Patient Positioning'],demand:72,salary:'₹1.8–3.5 LPA',salaryPct:40,admission:'Direct college admission / TN Paramedical Diploma Counselling'},
+{id:'emer',name:'Diploma in Emergency & Trauma Care',abbr:'DETC',cat:'Diploma',icon:'🚑',iconBg:'#f3e8ff',neet:'No NEET',dur:'2 yrs',desc:'Train to work in emergency rooms and trauma wards. Handle accident victims, cardiac arrests, and critical care triage alongside emergency doctors.',jobs:['Emergency Medical Technician','Trauma Care Technician','Ambulance Technician','ER Support Staff'],where:['Emergency Hospitals','Trauma Centres','EMRI Ambulance Services','Corporate Emergency Response'],subjects:['Emergency Anatomy','Trauma Management','CPR & Life Support','Fracture Management','Triage Protocols'],demand:78,salary:'₹1.8–4 LPA',salaryPct:45,admission:'Direct college admission'},
+{id:'medrecord',name:'Diploma in Medical Record Science',abbr:'Med Records',cat:'Diploma',icon:'📁',iconBg:'#f3e8ff',neet:'No NEET',dur:'2 yrs',desc:'Manage hospital patient records, digital health data, and medical coding. With healthcare going digital, medical informatics is growing fast.',jobs:['Medical Record Technician','Medical Coder (ICD-10)','Health Informatics Executive','Hospital Data Manager'],where:['Corporate Hospitals','Insurance Companies','Medical Coding Firms (USA-based)','E-health Companies'],subjects:['Medical Terminology','ICD Coding','Hospital Information Systems','Health Records Management'],demand:76,salary:'₹2–5 LPA; ₹8–15 LPA Medical Coding',salaryPct:55,admission:'TN DME Counselling'},
+
+// AYUSH
+{id:'bams',name:'Bachelor of Ayurvedic Medicine & Surgery',abbr:'BAMS',cat:'AYUSH',icon:'🌿',iconBg:'#dcfce7',neet:'NEET',dur:'5.5 yrs + 1yr Internship',desc:'Traditional Indian medicine system rooted in Ayurveda. Qualifies you as an Ayurvedic doctor. Growing globally with rising interest in natural and holistic health.',jobs:['Ayurvedic Doctor','Panchakarma Specialist','Ayurvedic Consultant','Wellness Centre Doctor','Research Officer'],where:['Ayurvedic Hospitals','Wellness Resorts (India & Abroad)','AYUSH Clinics','Govt AYUSH Dept','Export of Herbal Products'],subjects:['Sanskrit & Ayurvedic Texts','Padartha Vigyana','Dravyaguna (Herbs)','Kayachikitsa','Shalyatantra (Surgery)','Prasutitantra'],demand:80,salary:'₹3–8 LPA; Growing internationally',salaryPct:60,admission:'NEET-UG → AACCC AYUSH Counselling → TN State AYUSH Quota'},
+{id:'bhms',name:'Bachelor of Homoeopathic Medicine & Surgery',abbr:'BHMS',cat:'AYUSH',icon:'⚗️',iconBg:'#dcfce7',neet:'NEET',dur:'5.5 yrs + 1yr Internship',desc:'Homoeopathy — treating disease with highly diluted natural substances that trigger the body\'s self-healing. Popular in TN, Maharashtra, Kerala. Many private practitioners earn well.',jobs:['Homoeopathic Doctor','Private Practitioner','Homoeopathic Research Officer','Homoeo College Faculty'],where:['Govt Homoeopathic Hospitals','Private Clinics','AYUSH Research Centres','NGOs & Community Health'],subjects:['Organon of Medicine','Homoeopathic Materia Medica','Repertory','Pathology','Medicine','Surgery'],demand:72,salary:'₹2.5–6 LPA',salaryPct:50,admission:'NEET-UG → TN AYUSH State Counselling'},
+{id:'bsms',name:'Bachelor of Siddha Medicine & Surgery',abbr:'BSMS',cat:'AYUSH',icon:'🏺',iconBg:'#dcfce7',neet:'NEET',dur:'5.5 yrs + 1yr Internship',desc:'Tamil Nadu\'s own traditional medicine system — Siddha. Based on Tamil Siddhars\' ancient healing science using herbs, minerals, and lifestyle medicine. BSMS is unique to Tamil Nadu.',jobs:['Siddha Doctor','Siddha Practitioner','Siddha Research Scientist','AYUSH Medical Officer','College Faculty'],where:['Govt Siddha Hospitals (TN)','AYUSH Clinics','CCRS (Central Council for Research in Siddha)','Private Practice'],subjects:['Maruthuva Nool (Siddha Texts)','Gunapadam (Herbology)','Noi Naadal (Diagnosis)','Thokkanam (Therapy)','Surgery'],demand:73,salary:'₹2.5–6 LPA (TN Govt jobs available)',salaryPct:52,admission:'NEET-UG → TN Siddha Counselling (TN-specific)'},
+{id:'bums',name:'Bachelor of Unani Medicine & Surgery',abbr:'BUMS',cat:'AYUSH',icon:'🌙',iconBg:'#dcfce7',neet:'NEET',dur:'5.5 yrs + 1yr Internship',desc:'Greco-Arabic traditional medicine system using herbs, diet, and natural therapies. Practiced mainly in Muslim communities and has government recognition across India.',jobs:['Unani Doctor','AYUSH Medical Officer','Private Practitioner','Unani Drug Inspector'],where:['Govt Unani Hospitals','AYUSH Clinics','Community Health Centres'],subjects:['Ilmul Advia (Herbology)','Ilmul Amraz (Pathology)','Moalijat (Therapeutics)','Jarahat (Surgery)'],demand:65,salary:'₹2.5–5 LPA',salaryPct:45,admission:'NEET-UG → AACCC AYUSH Counselling'},
+{id:'bnys',name:'Bachelor of Naturopathy & Yogic Sciences',abbr:'BNYS',cat:'AYUSH',icon:'🧘',iconBg:'#dcfce7',neet:'NEET',dur:'5.5 yrs + 1yr Internship',desc:'Natural healing using sunlight, water, diet, massage, and yoga. Booming wellness sector globally. Naturopaths and yoga therapists are in great demand in wellness resorts, hospitals, and abroad.',jobs:['Naturopathy Doctor','Yoga Therapist','Wellness Consultant','Health Retreat Doctor','Lifestyle Medicine Specialist'],where:['Naturopathy Hospitals','Wellness Retreats (India, Maldives, Thailand)','Corporate Wellness','Yoga Studios','Abroad (Germany, USA, Australia)'],subjects:['Naturopathic Dietetics','Hydrotherapy','Yoga Therapy','Massage Therapy','Acupuncture','Lifestyle Medicine'],demand:82,salary:'₹3–8 LPA; ₹12–30+ LPA in wellness sector abroad',salaryPct:65,admission:'NEET-UG → AYUSH Counselling'},
+
+// LIFE SCIENCES
+{id:'bscbiotech',name:'B.Sc Biotechnology',abbr:'BSc Biotech',cat:'Life Science',icon:'🧬',iconBg:'#e0f2fe',neet:'No NEET',dur:'3 yrs',desc:'Study of using living organisms in technology — genetic engineering, bioinformatics, cell biology, and molecular genetics. Foundation for pharma R&D, genetics, and biomanufacturing.',jobs:['Research Scientist','Bioinformatics Analyst','Quality Control Analyst','Clinical Research Associate','Biotech Product Developer'],where:['Pharma R&D Labs','Biotech Companies','CSIR / ICMR Research Institutions','Diagnostic Firms','Agricultural Biotech'],subjects:['Cell Biology','Genetics & Genomics','Molecular Biology','Microbiology','Biochemistry','Bioinformatics'],demand:80,salary:'₹3–7 LPA; Higher after MSc/PhD',salaryPct:58,admission:'University merit / CUET / Direct admission'},
+{id:'bscmicro',name:'B.Sc Microbiology',abbr:'BSc Micro',cat:'Life Science',icon:'🦠',iconBg:'#e0f2fe',neet:'No NEET',dur:'3 yrs',desc:'Study bacteria, viruses, fungi, and parasites. Microbiologists work in hospitals, food industry, pharma QC, environmental monitoring, and research.',jobs:['Microbiologist','Hospital Infection Control Officer','Food Microbiologist','Industrial Microbiologist','Quality Assurance Officer'],where:['Hospital Microbiology Labs','Food Companies (Nestlé, ITC)','Pharmaceutical QC','Water Treatment','Research Institutes'],subjects:['Bacteriology','Virology','Mycology','Immunology','Industrial Microbiology','Food Microbiology'],demand:78,salary:'₹2.5–6 LPA; Higher after PG',salaryPct:55,admission:'University merit / Direct college admission'},
+{id:'bscnutrition',name:'B.Sc Nutrition & Dietetics',abbr:'BSc Nutrition',cat:'Life Science',icon:'🥗',iconBg:'#e0f2fe',neet:'No NEET',dur:'3 yrs',desc:'Study the science of food and its effect on health. Dieticians design meal plans for patients, athletes, and wellness clients. Booming with health-conscious lifestyle trends.',jobs:['Clinical Dietician','Sports Nutritionist','Hospital Dietician','Food Product Developer','Public Health Nutritionist','Wellness Consultant'],where:['Multi-specialty Hospitals','Sports Academies & Cricket Teams','Corporate Cafeterias','Food Companies','Wellness Centres','Schools & Colleges'],subjects:['Human Nutrition','Biochemistry of Nutrition','Clinical Dietetics','Food Science','Therapeutic Nutrition','Paediatric Nutrition'],demand:82,salary:'₹2.5–6 LPA; ₹8–20 LPA with experience',salaryPct:57,admission:'University merit / Direct college admission'},
+{id:'bscbiochem',name:'B.Sc Biochemistry',abbr:'BSc Biochem',cat:'Life Science',icon:'⚗️',iconBg:'#e0f2fe',neet:'No NEET',dur:'3 yrs',desc:'Chemical processes within living organisms. Strong foundation for pharma, diagnostics, and medical research. Often leads to research/industry roles after post-graduation.',jobs:['Biochemist','Lab Analyst','Clinical Researcher','Enzyme / Drug Researcher','Diagnostics Scientist'],where:['Pharma Companies','Research Institutes (CSIR)','Diagnostic Labs','Food & Beverage Industry','Hospitals'],subjects:['Organic Chemistry','Enzymology','Metabolism','Molecular Biology','Endocrinology','Analytical Biochemistry'],demand:72,salary:'₹2.5–5 LPA; Higher with PG/PhD',salaryPct:50,admission:'University merit / Direct admission'},
+{id:'bscforensic',name:'B.Sc Forensic Science',abbr:'BSc Forensic',cat:'Life Science',icon:'🔍',iconBg:'#e0f2fe',neet:'No NEET',dur:'3 yrs',desc:'Apply science to criminal investigation and legal proceedings. Analyse evidence, investigate crime scenes, and provide expert testimony. Growing field with increasing crime rate complexity.',jobs:['Forensic Scientist','Crime Scene Investigator','Fingerprint Expert','Forensic Toxicologist','Police Lab Analyst'],where:['State Police Forensic Labs','Central Forensic Science Lab (CFSL)','CBI / NIA','Private Forensic Firms','Courts (Expert Witness)'],subjects:['Criminalistics','Forensic Toxicology','Questioned Documents','DNA Fingerprinting','Forensic Ballistics','Cyber Forensics'],demand:75,salary:'₹3–6 LPA (Govt); ₹4–8 LPA Private',salaryPct:55,admission:'University merit / CUET'},
+{id:'bsczoology',name:'B.Sc Zoology',abbr:'BSc Zoology',cat:'Life Science',icon:'🦎',iconBg:'#e0f2fe',neet:'No NEET',dur:'3 yrs',desc:'Study of animal life — morphology, physiology, ecology, and evolutionary biology. Gateway to wildlife, environmental, and research careers.',jobs:['Wildlife Biologist','Zoologist','Environmental Consultant','Research Scientist','UPSC / TNPSC Exams'],where:['Wildlife Sanctuaries','Environmental Agencies','Research Institutes','Zoo Management','Government Forest Dept'],subjects:['Animal Biology','Ecology','Genetics','Developmental Biology','Evolutionary Biology','Taxonomy'],demand:65,salary:'₹2–4 LPA; Research/Govt pays better',salaryPct:42,admission:'University merit / Direct college'},
+{id:'bscbotany',name:'B.Sc Botany',abbr:'BSc Botany',cat:'Life Science',icon:'🌱',iconBg:'#e0f2fe',neet:'No NEET',dur:'3 yrs',desc:'Study of plant life — structure, physiology, ecology, and pharmacognosy. Plants are the basis for traditional medicines, agriculture, and climate studies.',jobs:['Botanist','Herbal Drug Researcher','Agricultural Scientist','Forest Researcher','Environmental Scientist'],where:['Research Institutes','AYUSH Drug Industry','Agriculture Depts','Forest Depts (TNPSC)','Botanical Survey of India'],subjects:['Plant Anatomy','Plant Physiology','Pharmacognosy','Ecology','Plant Taxonomy','Economic Botany'],demand:62,salary:'₹2–4 LPA; Government better',salaryPct:40,admission:'University merit / Direct college'},
+{id:'bscgenetics',name:'B.Sc Genetics',abbr:'BSc Genetics',cat:'Life Science',icon:'🧪',iconBg:'#e0f2fe',neet:'No NEET',dur:'3 yrs',desc:'Study of heredity, DNA, and genetic variations. Foundation for genetic counselling, molecular diagnostics, personalized medicine, and biotechnology.',jobs:['Genetic Counsellor','Molecular Diagnostic Scientist','Genomics Research Associate','DNA Analyst','Bioinformatics Analyst'],where:['Genetic Labs','Prenatal Diagnostic Centres','Pharma R&D','Research Hospitals','CSIR / DBT Labs'],subjects:['Classical Genetics','Molecular Genetics','Genomics','Population Genetics','Developmental Genetics','Bioinformatics'],demand:77,salary:'₹3–7 LPA (growing fast)',salaryPct:57,admission:'University merit / CUET'},
+
+// VETERINARY
+{id:'bvsc',name:'B.V.Sc & Animal Husbandry',abbr:'BVSc & AH',cat:'Veterinary',icon:'🐾',iconBg:'#fef3c7',neet:'NEET',dur:'5.5 yrs + 6 months Internship',desc:'Veterinary medicine — diagnosis, treatment, and surgical care of animals. Covers pets, livestock, poultry, and wildlife. TANUVAS is Tamil Nadu\'s top veterinary university.',jobs:['Veterinary Surgeon','Livestock Development Officer','Poultry Health Specialist','Wildlife Veterinarian','Veterinary Drug Inspector','Research Scientist'],where:['Govt Animal Husbandry Dept','Private Pet Clinics','Poultry & Dairy Farms','Zoo / Wildlife Parks','ICAR Research Institutes','Army Veterinary Corps'],subjects:['Anatomy of Animals','Animal Physiology','Veterinary Pharmacology','Animal Surgery','Poultry Science','Livestock Management','Public Health'],demand:80,salary:'₹4–10 LPA Govt; ₹3–6 LPA Pvt',salaryPct:65,admission:'NEET-UG → TANUVAS Counselling (Tamil Nadu Veterinary & Animal Sciences University)'},
+{id:'bscagriculture',name:'B.Sc Agriculture',abbr:'BSc Agriculture',cat:'Veterinary',icon:'🌾',iconBg:'#fef3c7',neet:'No NEET',dur:'4 yrs',desc:'Science of crop production, soil management, plant protection, and agri-business. Tamil Nadu has TNAU (one of India\'s top agricultural universities) in Coimbatore.',jobs:['Agricultural Officer (TNPSC)','Agri Input Dealer','Soil Scientist','Crop Research Scientist','Agri-business Manager','Extension Officer'],where:['Tamil Nadu Agri Dept','TNAU / ICAR Research','Fertiliser & Pesticide Companies','Food Processing Industry','Agricultural Banks (NABARD)'],subjects:['Agronomy','Soil Science','Plant Pathology','Entomology','Horticulture','Agricultural Economics'],demand:76,salary:'₹3–7 LPA Govt; Rising with agri-tech',salaryPct:58,admission:'TNAU CET (Tamil Nadu Agricultural University Entrance)'},
+{id:'bscfoodtech',name:'B.Tech Food Technology',abbr:'BTech Food Tech',cat:'Veterinary',icon:'🍱',iconBg:'#fef3c7',neet:'No NEET',dur:'4 yrs',desc:'Processing, preservation, and packaging of food. Combines biology with engineering. Huge demand in food manufacturing sector — dairy, beverages, frozen food, spices.',jobs:['Food Technologist','Quality Control Manager','Food Safety Officer','R&D Food Scientist','Nutritional Labelling Expert','Export Quality Inspector'],where:['Food Companies (Britannia, Nestlé, Amul, ITC)','FSSAI (Food Safety)','Dairy Industry','Export Processing Zones','Restaurants / Hotel Chains'],subjects:['Food Chemistry','Food Microbiology','Food Processing','Packaging Technology','Food Safety Laws','Dairy Technology'],demand:79,salary:'₹3–7 LPA; ₹8–15 LPA in MNCs',salaryPct:60,admission:'TNEA Engineering counselling via DOTE'},
+];
+
+// ─── CATEGORIES ─────────────────────────────────────────────────────────────
+const cats = [
+  {id:'',label:'All',emoji:'📋'},
+  {id:'Doctor',label:'Doctor Pathway',emoji:'🩺'},
+  {id:'Nursing',label:'Nursing',emoji:'👩‍⚕️'},
+  {id:'Pharmacy',label:'Pharmacy',emoji:'💊'},
+  {id:'Paramedical',label:'Paramedical & Allied',emoji:'🧫'},
+  {id:'AYUSH',label:'AYUSH & Alternative',emoji:'🌿'},
+  {id:'Life Science',label:'Life Sciences',emoji:'🧬'},
+  {id:'Veterinary',label:'Veterinary & Agri',emoji:'🐾'},
+  {id:'Diploma',label:'Diploma / Certificate',emoji:'📜'},
+];
+
+const catColors = {
+  'Doctor':'#fee2e2','Nursing':'#dcfce7','Pharmacy':'#fef3c7',
+  'Paramedical':'#ede9fe','AYUSH':'#d1fae5','Life Science':'#e0f2fe',
+  'Veterinary':'#fef3c7','Diploma':'#f3e8ff'
+};
+const catText = {
+  'Doctor':'#b91c1c','Nursing':'#14532d','Pharmacy':'#78350f',
+  'Paramedical':'#5b21b6','AYUSH':'#064e3b','Life Science':'#0c4a6e',
+  'Veterinary':'#6d4c00','Diploma':'#4c1d95'
+};
+
+// ─── BUILD CATEGORY NAV ─────────────────────────────────────────────────────
+const catNav = document.getElementById('catNav');
+cats.forEach(c=>{
+  const count = c.id ? courses.filter(x=>x.cat===c.id).length : courses.length;
+  const btn = document.createElement('button');
+  btn.className = 'cat-btn' + (c.id===''?' active':'');
+  btn.innerHTML = `${c.emoji} ${c.label} <span class="cat-count">${count}</span>`;
+  btn.onclick = ()=>{ document.querySelectorAll('.cat-btn').forEach(b=>b.classList.remove('active')); btn.classList.add('active'); document.getElementById('catFilter').value=c.id; filterCourses(); };
+  catNav.appendChild(btn);
+});
+
+// ─── RENDER COURSES ──────────────────────────────────────────────────────────
+function buildCard(c){
+  const col = catColors[c.cat]||'#e0f2fe';
+  const txt = catText[c.cat]||'#0c4a6e';
+  return `
+  <div class="course-card" id="card-${c.id}">
+    <div class="cc-top">
+      <div class="cc-row1">
+        <div class="cc-icon" style="background:${c.iconBg}">${c.icon}</div>
+        <div class="cc-meta">
+          <div class="cc-name">${c.name}</div>
+          <div class="cc-short" style="color:${txt}">${c.abbr}</div>
+        </div>
+      </div>
+      <div class="cc-badges">
+        <span class="badge badge-dur">⏱ ${c.dur}</span>
+        <span class="badge ${c.neet==='NEET'?'badge-neet':'badge-noneet'}">${c.neet==='NEET'?'🎯 NEET Required':'✅ No NEET'}</span>
+        <span class="badge badge-salary">💰 ${c.salary.split(';')[0]}</span>
+      </div>
+      <div class="cc-desc">${c.desc}</div>
+    </div>
+    <div class="cc-divider"></div>
+    <div class="cc-jobs">
+      <div class="cc-jobs-label">Job Roles</div>
+      <div class="job-chips">${c.jobs.map(j=>`<span class="jc">${j}</span>`).join('')}</div>
+    </div>
+    <div class="cc-where">
+      <div class="cc-where-label">Where You Work</div>
+      <div class="where-chips">${c.where.map(w=>`<span class="wc">${w}</span>`).join('')}</div>
+    </div>
+    <button class="cc-toggle" onclick="toggleCard('${c.id}',this)">▼ See Subjects, Salary Range & Admission Route</button>
+    <div class="cc-extra" id="extra-${c.id}">
+      <div class="extra-title">Core Subjects</div>
+      <div class="extra-row">${c.subjects.map(s=>`<div class="extra-item">${s}</div>`).join('')}</div>
+      <div style="margin-top:10px">
+        <div class="extra-title">Admission Route</div>
+        <div style="font-size:12px;color:var(--g600);line-height:1.7">${c.admission}</div>
+      </div>
+      <div class="salary-bar">
+        <span class="sb-label">Salary Scale</span>
+        <div class="sb-track"><div class="sb-fill" style="width:${c.salaryPct}%"></div></div>
+        <span class="sb-val">${c.salary}</span>
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderAllCourses(list){
+  const wrap = document.getElementById('coursesWrap');
+  wrap.innerHTML = list.map(buildCard).join('');
+  document.getElementById('courseCount').textContent = `${list.length} of ${courses.length} courses`;
+}
+
+function filterCourses(){
+  const q = document.getElementById('courseSearch').value.toLowerCase();
+  const cat = document.getElementById('catFilter').value;
+  const neet = document.getElementById('neetFilter').value;
+  const filtered = courses.filter(c=>{
+    const matchQ = !q || c.name.toLowerCase().includes(q) || c.abbr.toLowerCase().includes(q) || c.jobs.join(' ').toLowerCase().includes(q);
+    const matchCat = !cat || c.cat===cat;
+    const matchNeet = !neet || c.neet===neet;
+    return matchQ && matchCat && matchNeet;
+  });
+  renderAllCourses(filtered);
+}
+
+function toggleCard(id,btn){
+  const el = document.getElementById('extra-'+id);
+  const open = el.classList.toggle('open');
+  btn.textContent = open ? '▲ Hide Details' : '▼ See Subjects, Salary Range & Admission Route';
+}
+
+renderAllCourses(courses);
+
+// ─── COMPARE ─────────────────────────────────────────────────────────────────
+const c1sel = document.getElementById('cmp1'), c2sel = document.getElementById('cmp2');
+courses.forEach(c=>{ [c1sel,c2sel].forEach(s=>{ const o=document.createElement('option'); o.value=c.id; o.textContent=c.abbr+' – '+c.name.substring(0,40); s.appendChild(o); }); });
+
+function renderCompare(){
+  const a = courses.find(c=>c.id===c1sel.value);
+  const b = courses.find(c=>c.id===c2sel.value);
+  if(!a||!b){document.getElementById('cmpResult').innerHTML='<div class="cmp-empty">⚖️<br/><br/>Select two courses above to compare them side-by-side.</div>';return;}
+  const common = a.jobs.filter(j=>b.jobs.includes(j));
+  document.getElementById('cmpResult').innerHTML = `
+  <table class="cmp-table">
+    <thead><tr><th>Parameter</th><th class="c">${a.abbr}</th><th class="c">${b.abbr}</th></tr></thead>
+    <tbody>
+      <tr><td>Full Name</td><td class="c" style="font-size:12px">${a.name}</td><td class="c" style="font-size:12px">${b.name}</td></tr>
+      <tr><td>Category</td><td class="c"><span style="font-size:11px;font-weight:700;background:${catColors[a.cat]};color:${catText[a.cat]};padding:3px 9px;border-radius:99px">${a.cat}</span></td><td class="c"><span style="font-size:11px;font-weight:700;background:${catColors[b.cat]};color:${catText[b.cat]};padding:3px 9px;border-radius:99px">${b.cat}</span></td></tr>
+      <tr><td>NEET Required</td><td class="c"><span class="badge ${a.neet==='NEET'?'badge-neet':'badge-noneet'}">${a.neet}</span></td><td class="c"><span class="badge ${b.neet==='NEET'?'badge-neet':'badge-noneet'}">${b.neet}</span></td></tr>
+      <tr><td>Duration</td><td class="c">${a.dur}</td><td class="c">${b.dur}</td></tr>
+      <tr><td>Starting Salary</td><td class="c" style="font-weight:700;color:var(--green)">${a.salary.split(';')[0]}</td><td class="c" style="font-weight:700;color:var(--green)">${b.salary.split(';')[0]}</td></tr>
+      <tr><td>Demand Level</td><td class="c"><div style="height:8px;background:var(--b100);border-radius:99px;overflow:hidden;width:80px;margin:0 auto"><div style="height:100%;width:${a.demand}%;background:var(--b600)"></div></div><div style="font-size:11px;margin-top:3px;text-align:center">${a.demand}%</div></td><td class="c"><div style="height:8px;background:var(--b100);border-radius:99px;overflow:hidden;width:80px;margin:0 auto"><div style="height:100%;width:${b.demand}%;background:var(--b600)"></div></div><div style="font-size:11px;margin-top:3px;text-align:center">${b.demand}%</div></td></tr>
+      <tr><td>No. of Job Roles</td><td class="c">${a.jobs.length} roles</td><td class="c">${b.jobs.length} roles</td></tr>
+      <tr><td>Job Roles</td><td class="c" style="font-size:11px">${a.jobs.join(' · ')}</td><td class="c" style="font-size:11px">${b.jobs.join(' · ')}</td></tr>
+      <tr><td>Work Settings</td><td class="c" style="font-size:11px">${a.where.join(' · ')}</td><td class="c" style="font-size:11px">${b.where.join(' · ')}</td></tr>
+      <tr><td>Common Roles</td><td class="c" colspan="2" style="text-align:center;font-size:11px;color:var(--g500)">${common.length>0?common.join(' · '):'No common roles'}</td></tr>
+      <tr><td>Admission Route</td><td class="c" style="font-size:11px">${a.admission}</td><td class="c" style="font-size:11px">${b.admission}</td></tr>
+    </tbody>
+  </table>`;
+}
+
+// ─── CAREER SECTORS ──────────────────────────────────────────────────────────
+const sectors = [
+  {id:'hospital',label:'🏥 Hospitals',color:'linear-gradient(135deg,#0f2044,#1e4d9a)',
+   desc:'Hospitals are the biggest employers of medical graduates in Tamil Nadu and India. Every department — OPD, ICU, OT, Emergency, Lab, Pharmacy, Radiology — needs qualified health professionals.',
+   roles:[
+     {title:'Doctor / Physician',pkg:'₹8–25 LPA',course:'MBBS',desc:'Diagnose and treat patients across all departments'},
+     {title:'Dentist',pkg:'₹3–10 LPA',course:'BDS',desc:'Oral health care, dental surgery, and prosthetics'},
+     {title:'Staff Nurse / ICU Nurse',pkg:'₹2.5–5 LPA',course:'BSc Nursing / GNM',desc:'Patient monitoring, medication administration, care planning'},
+     {title:'Lab Technologist',pkg:'₹2.5–5 LPA',course:'BMLT',desc:'Blood tests, culture reports, urinalysis, pathology slides'},
+     {title:'Radiographer / MRI Tech',pkg:'₹3–6 LPA',course:'BSc Radiology',desc:'X-ray, CT, MRI, ultrasound imaging'},
+     {title:'Pharmacist',pkg:'₹2.5–5 LPA',course:'B.Pharm',desc:'Dispensing medicines, drug counselling, clinical pharmacy'},
+     {title:'Physiotherapist',pkg:'₹2.5–5 LPA',course:'BPT',desc:'Post-surgery rehab, stroke recovery, sports injury'},
+     {title:'OT Technician',pkg:'₹2.5–5 LPA',course:'OTAT',desc:'Surgical instrument setup, anaesthesia support, sterile field'},
+     {title:'Cardiac Technician',pkg:'₹3–6 LPA',course:'Cardiac Tech',desc:'ECG, echocardiography, cath lab support'},
+     {title:'Audiologist / SLP',pkg:'₹2.5–5 LPA',course:'BASLP',desc:'Hearing tests, speech therapy, cochlear implant support'},
+     {title:'Occupational Therapist',pkg:'₹2.5–5 LPA',course:'BOT',desc:'Rehab for daily activities, stroke and disability care'},
+     {title:'Optometrist',pkg:'₹2.5–5 LPA',course:'B.Optom',desc:'Vision testing, contact lenses, pre/post eye surgery care'},
+   ],
+   employers:['AIIMS Madurai','Rajiv Gandhi Govt General Hospital','Apollo Hospitals','Kauvery Hospitals','Fortis','Global Hospitals','Meenakshi Mission Hospital','Kumaran Hospital','PSG Hospitals','JIPMER Puducherry']},
+  {id:'govt',label:'🏛️ Government Jobs',color:'linear-gradient(135deg,#14532d,#16a34a)',
+   desc:'Government healthcare is one of the largest employers in Tamil Nadu. TNPSC, TNMRB (Tamil Nadu Medical & Rural Health Service Board), Central Government UPSC, ESIC, Railways, and Defence all recruit medical graduates at every level.',
+   roles:[
+     {title:'Medical Officer (MBBS)',pkg:'₹9–15 LPA',course:'MBBS',desc:'PHC / CHC / Govt Hospital medical officer recruitment via TNMRB'},
+     {title:'Health Inspector',pkg:'₹5–8 LPA',course:'BASLP / Public Health',desc:'Community health monitoring, epidemic surveillance'},
+     {title:'Village Health Nurse (VHN)',pkg:'₹3–5 LPA',course:'ANM / GNM',desc:'TNPSC Group-D / C — Primary healthcare at village level'},
+     {title:'Pharmacist (Govt)',pkg:'₹4–7 LPA',course:'B.Pharm / D.Pharm',desc:'Govt hospital dispensaries, TNPSC Group B'},
+     {title:'Lab Technician (Govt)',pkg:'₹4–7 LPA',course:'BMLT / DMLT',desc:'Govt hospital labs — TNPSC Group C/B recruitment'},
+     {title:'Radiographer (Govt)',pkg:'₹4–7 LPA',course:'BSc Radiology',desc:'District hospital radiology departments'},
+     {title:'Ayurvedic / Siddha Medical Officer',pkg:'₹6–10 LPA',course:'BAMS / BSMS',desc:'AYUSH Health Centres, Govt AYUSH Hospitals'},
+     {title:'Agricultural Officer',pkg:'₹5–8 LPA',course:'BSc Agriculture',desc:'TNPSC Group 2 — Department of Agriculture'},
+     {title:'Veterinary Assistant Surgeon',pkg:'₹6–10 LPA',course:'BVSc',desc:'TNPSC — Animal Husbandry Department'},
+   ],
+   employers:['Tamil Nadu TNMRB','TNPSC (Groups A/B/C)','ESIC Tamil Nadu','Indian Railway Medical Dept','CRPF / BSF Medical','Defence Medical Services','AIIMS','UPSC (CMO)','NABARD (Agriculture)']},
+  {id:'global',label:'🌍 International / Abroad',color:'linear-gradient(135deg,#44337a,#7c3aed)',
+   desc:'Tamil Nadu medical graduates have an excellent track record of international employment — especially nurses, pharmacists, and allied health professionals. Demand is highest in Gulf countries, UK, USA, Canada, and Australia.',
+   roles:[
+     {title:'Registered Nurse (UK/Australia)',pkg:'₹15–30 LPA equiv',course:'BSc Nursing',desc:'IELTS + NMC/AHPRA registration → direct NHS/hospital recruitment'},
+     {title:'Registered Nurse (Gulf/UAE)',pkg:'₹8–20 LPA equiv',course:'BSc Nursing / GNM',desc:'DHA / HAAD / MOH exam → Saudi, UAE, Qatar, Kuwait hospitals'},
+     {title:'Pharmacist (USA/Canada)',pkg:'₹30–50 LPA equiv',course:'B.Pharm / Pharm.D',desc:'NAPLEX exam → US retail/hospital pharmacy; high demand shortage'},
+     {title:'Physiotherapist (UK/Australia)',pkg:'₹15–25 LPA equiv',course:'BPT',desc:'HCPC registration UK / AHPRA Australia → private practice allowed'},
+     {title:'Medical Lab Scientist (Gulf)',pkg:'₹8–18 LPA equiv',course:'BMLT',desc:'CBAHI / DHA certification for Saudi / UAE hospital labs'},
+     {title:'Radiographer / MRI Tech (Gulf)',pkg:'₹10–22 LPA equiv',course:'BSc Radiology',desc:'Gulf hospitals heavily recruit experienced Indian radiographers'},
+     {title:'Occupational Therapist (Australia)',pkg:'₹20–35 LPA equiv',course:'BOT',desc:'Critical shortage in Australia — direct PR pathway available'},
+     {title:'Speech Language Pathologist (USA)',pkg:'₹25–40 LPA equiv',course:'BASLP',desc:'ASHA certification → US schools and hospitals have huge demand'},
+   ],
+   employers:['NHS UK (National Health Service)','Saudi Ministry of Health','UAE DHA hospitals','NMC (Netherlands) hospitals','Australia NDIS providers','Canada Health Authorities','Qatar Hospital Corp','Kuwait Health Ministry']},
+  {id:'pharma',label:'💊 Pharma Industry',color:'linear-gradient(135deg,#7c2d12,#ea580c)',
+   desc:'Tamil Nadu is a major pharmaceutical hub — Chennai and Coimbatore host multinational and Indian pharma companies. Biotech, clinical research, and drug regulation careers are available beyond just manufacturing.',
+   roles:[
+     {title:'Drug Regulatory Affairs Officer',pkg:'₹4–12 LPA',course:'B.Pharm / Pharm.D',desc:'Drug approval filings, CDSCO regulatory submissions, import licences'},
+     {title:'Quality Control Analyst',pkg:'₹3–7 LPA',course:'B.Pharm / BSc Biotech',desc:'HPLC, titration, microbial testing of drug batches'},
+     {title:'Clinical Research Associate (CRA)',pkg:'₹5–12 LPA',course:'B.Pharm / MBBS / BSc Life Sci',desc:'Clinical trial monitoring for pharma companies — growing field'},
+     {title:'Medical Representative (MR)',pkg:'₹3–8 LPA + incentives',course:'B.Pharm / MBBS',desc:'Promote medicines to doctors — high incentive-based earning potential'},
+     {title:'Pharmacovigilance Analyst',pkg:'₹4–10 LPA',course:'B.Pharm / MBBS / BSc',desc:'Monitor drug side effects and adverse events — regulatory compliance'},
+     {title:'Biotech R&D Scientist',pkg:'₹4–10 LPA',course:'BSc/MSc Biotech',desc:'Lab research in drug discovery, gene therapy, biosimilars'},
+     {title:'Food Safety Officer / FSSAI',pkg:'₹5–9 LPA',course:'BSc Food Tech / Microbio',desc:'Inspect food manufacturing plants for safety compliance'},
+   ],
+   employers:['Sun Pharma','Cipla','Dr Reddy\'s','Biocon','Pfizer India','Abbott India','Novartis India','Hetero Labs','Aurobindo Pharma','Jubilant Biosys','Syngene (CRO)']},
+  {id:'research',label:'🔬 Research & Academia',color:'linear-gradient(135deg,#1e3a5f,#2563eb)',
+   desc:'ICMR, CSIR, DBT, DST, and private research institutions across Tamil Nadu offer research careers for life science and medical graduates. Academia opens teaching and mentoring roles.',
+   roles:[
+     {title:'Research Scientist (ICMR / CSIR)',pkg:'₹6–15 LPA',course:'BSc/MSc + PhD Life Sciences',desc:'Medical research, drug discovery, vaccine development at national labs'},
+     {title:'Clinical Research Coordinator',pkg:'₹4–10 LPA',course:'MBBS / B.Pharm / BSc',desc:'Coordinate clinical trials — patient recruitment, data collection, ethics'},
+     {title:'Bioinformatics Scientist',pkg:'₹5–12 LPA',course:'BSc/MSc Genetics/Biotech',desc:'Analysing genomic data, protein structure, and drug targets using computers'},
+     {title:'Medical Professor / Lecturer',pkg:'₹8–20 LPA',course:'MD/MS/PhD',desc:'Teaching at medical colleges after postgraduate specialisation'},
+     {title:'Paramedical Faculty',pkg:'₹3–6 LPA',course:'BSc + PG in Paramedical',desc:'Teach nursing, lab tech, radiology, or physiotherapy courses'},
+     {title:'Public Health Researcher',pkg:'₹5–12 LPA',course:'MBBS + MPH / BSc',desc:'Study disease patterns, health policy, epidemiology for governments and NGOs'},
+   ],
+   employers:['ICMR (Indian Council of Medical Research)','CSIR Labs','JIPMER Puducherry','CMC Vellore','IIT Madras (Biotech)','DBT (Dept of Biotechnology)','WHO India','UNICEF Health','Tamil Nadu Health Systems Project']},
+  {id:'wellness',label:'🌿 Wellness & Alternative',color:'linear-gradient(135deg,#064e3b,#0d9488)',
+   desc:'The wellness and alternative medicine sector is booming globally — yoga, Ayurveda, naturopathy, spa therapy, and corporate wellness are multi-billion dollar industries with rising demand for Tamil Nadu graduates.',
+   roles:[
+     {title:'Ayurvedic Wellness Consultant',pkg:'₹3–10 LPA; ₹15–30 LPA abroad',course:'BAMS',desc:'Panchakarma therapist, Ayurvedic lifestyle consultant at resorts & clinics'},
+     {title:'Yoga Therapist / Instructor',pkg:'₹3–10 LPA',course:'BNYS / Yoga Certification',desc:'Corporate yoga, hospital yoga therapy, online wellness programmes'},
+     {title:'Naturopath',pkg:'₹3–8 LPA',course:'BNYS',desc:'Natural healing — water therapy, diet, massage, sunlight therapy'},
+     {title:'Nutrition & Wellness Consultant',pkg:'₹3–8 LPA',course:'BSc Nutrition',desc:'Online dietitian practice, sports nutrition, corporate wellness'},
+     {title:'Siddha Practitioner',pkg:'₹3–7 LPA',course:'BSMS',desc:'Traditional Tamil healing — herbal formulations, marma therapy'},
+     {title:'Hospital Wellness Coordinator',pkg:'₹4–8 LPA',course:'BNYS / BSc Nutrition',desc:'Integrative medicine departments in multi-specialty hospitals'},
+   ],
+   employers:['Kairali Ayurvedic Resorts','CGH Earth Resorts','Ananda in Himalayas','Six Senses (Maldives / Thailand)','Oberoi Wildflower Hall','Corporate Wellness Companies','Online Health Platforms (Practo, 1mg)']},
+];
+
+// BUILD CAREER TAB
+const sectorTabs = document.getElementById('sectorTabs');
+const sectorPanels = document.getElementById('sectorPanels');
+sectors.forEach((s,i)=>{
+  const tb = document.createElement('button');
+  tb.className = 'st'+(i===0?' active':'');
+  tb.textContent = s.label;
+  tb.onclick = ()=>{ document.querySelectorAll('.st').forEach(x=>x.classList.remove('active')); tb.classList.add('active'); document.querySelectorAll('.sector-panel').forEach(x=>x.classList.remove('active')); document.getElementById('panel-'+s.id).classList.add('active'); };
+  sectorTabs.appendChild(tb);
+  const p = document.createElement('div');
+  p.className = 'sector-panel'+(i===0?' active':'');
+  p.id = 'panel-'+s.id;
+  p.innerHTML = `
+    <div class="sector-hero" style="background:${s.color}">
+      <span class="sic">${s.label.split(' ')[0]}</span>
+      <h3>${s.label.substring(2)}</h3>
+      <p>${s.desc}</p>
+    </div>
+    <div style="font-family:var(--fh);font-size:14px;font-weight:800;color:var(--b900);margin-bottom:14px">Key Job Roles & Salary Ranges</div>
+    <div class="roles-grid">${s.roles.map(r=>`
+      <div class="role-card">
+        <div class="role-title">${r.title}</div>
+        <span class="role-pkg">💰 ${r.pkg}</span><br/>
+        <span class="role-course">📚 ${r.course}</span>
+        <div class="role-desc">${r.desc}</div>
+      </div>`).join('')}</div>
+    <div class="employers-box"><h4>Top Employers / Institutions</h4><div class="emp-chips">${s.employers.map(e=>`<span class="ec">${e}</span>`).join('')}</div></div>`;
+  sectorPanels.appendChild(p);
+});
+
+// ─── TAB SWITCHING ────────────────────────────────────────────────────────────
+function showSec(id,btn){
+  document.querySelectorAll('.sec').forEach(s=>s.classList.remove('active'));
+  document.querySelectorAll('.nb').forEach(b=>b.classList.remove('active'));
+  document.getElementById('sec-'+id).classList.add('active');
+  btn.classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+// ─── COPY / SHARE ─────────────────────────────────────────────────────────────
+function copyMsg(id,btn){
+  const text = document.getElementById(id).textContent;
+  navigator.clipboard.writeText(text).then(()=>{
+    btn.textContent = '✅ Copied!';
+    btn.classList.add('copied');
+    setTimeout(()=>{ btn.textContent = '📋 Copy Message'; btn.classList.remove('copied'); },2500);
+  }).catch(()=>{ const ta=document.createElement('textarea'); ta.value=text; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); btn.textContent='✅ Copied!'; setTimeout(()=>btn.textContent='📋 Copy Message',2500); });
+}
+function sendWA(type){
+  const msgs = {
+    student:'🎓 Medical & Health Science Course Guide for 12th Biology Students - 50+ courses including MBBS, Nursing, Pharmacy, Paramedical, AYUSH, Life Sciences & more. NEET + Non-NEET options explained. Share with your friends!',
+    parent:'மதிப்பிற்குரிய பெற்றோர்களே, உங்கள் பிள்ளைக்கு 50+ medical courses உள்ளன. MBBS மட்டும் இல்லை. NEET இல்லாமலும் BSc Nursing, Pharmacy, Lab Tech, Physiotherapy எல்லாம் excellent careers. Government jobs & Gulf opportunities available!'
+  };
+  window.open('https://wa.me/?text='+encodeURIComponent(msgs[type]),'_blank');
+}
+
+// ─── COLLEGES DATA ───────────────────────────────────────────────────────────
+const colleges = [
+// ── MBBS GOVERNMENT ──
+{name:'Madras Medical College & Rajiv Gandhi Govt General Hospital',city:'Chennai',district:'Chennai',type:'Government',cat:'MBBS',courses:['MBBS','MD/MS','Super Specialty'],seats:250,est:1835,fee:'~₹13,000/yr',url:'https://www.mmc.ac.in'},
+{name:'Stanley Medical College & Hospital',city:'Chennai',district:'Chennai',type:'Government',cat:'MBBS',courses:['MBBS','MD/MS'],seats:250,est:1838,fee:'~₹13,000/yr',url:'https://www.stanleymedicalcollege.ac.in'},
+{name:'Kilpauk Medical College & Hospital',city:'Chennai',district:'Chennai',type:'Government',cat:'MBBS',courses:['MBBS','MD/MS'],seats:150,est:1960,fee:'~₹13,000/yr',url:'https://www.kilpaukmedicalcollege.ac.in'},
+{name:'Govt Omandurar Multi Super Specialty Hospital & Medical College',city:'Chennai',district:'Chennai',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2015,fee:'~₹13,000/yr',url:'https://www.omandurarhospital.tn.gov.in'},
+{name:'Govt ESIC Medical College & PGIMSR',city:'Chennai',district:'Chennai',type:'Government',cat:'MBBS',courses:['MBBS','MD/MS'],seats:100,est:2013,fee:'~₹13,000/yr',url:'https://www.esichospital.tn.gov.in'},
+{name:'Govt Medical College & ESI Hospital Singanallur',city:'Coimbatore',district:'Coimbatore',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2016,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Madurai Medical College & Rajaji Hospital',city:'Madurai',district:'Madurai',type:'Government',cat:'MBBS',courses:['MBBS','MD/MS','Super Specialty'],seats:250,est:1954,fee:'~₹13,000/yr',url:'https://www.mmc.tn.gov.in'},
+{name:'Govt Coimbatore Medical College & Hospital',city:'Coimbatore',district:'Coimbatore',type:'Government',cat:'MBBS',courses:['MBBS','MD/MS'],seats:200,est:1966,fee:'~₹13,000/yr',url:'https://www.gcmch.ac.in'},
+{name:'Govt Thanjavur Medical College & Hospital',city:'Thanjavur',district:'Thanjavur',type:'Government',cat:'MBBS',courses:['MBBS','MD/MS'],seats:150,est:1958,fee:'~₹13,000/yr',url:'https://www.tmc.ac.in'},
+{name:'Govt Tirunelveli Medical College & Hospital',city:'Tirunelveli',district:'Tirunelveli',type:'Government',cat:'MBBS',courses:['MBBS','MD/MS'],seats:250,est:1965,fee:'~₹13,000/yr',url:'https://www.tvmc.ac.in'},
+{name:'Govt Chengalpattu Medical College & Hospital',city:'Chengalpattu',district:'Chengalpattu',type:'Government',cat:'MBBS',courses:['MBBS','MD/MS'],seats:100,est:1965,fee:'~₹13,000/yr',url:'https://www.chengalpattumedicalcollege.ac.in'},
+{name:'Govt Cuddalore Medical College & Hospital (RMMCH)',city:'Chidambaram',district:'Cuddalore',type:'Government',cat:'MBBS',courses:['MBBS','MD/MS'],seats:150,est:1985,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Erode Medical College & Hospital',city:'Perundurai',district:'Erode',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:1992,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'KAP Viswanatham Govt Medical College (KAPV GMC)',city:'Tiruchirappalli',district:'Tiruchirappalli',type:'Government',cat:'MBBS',courses:['MBBS','MD/MS'],seats:150,est:1997,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Mohan Kumaramangalam Medical College (GMKMC)',city:'Salem',district:'Salem',type:'Government',cat:'MBBS',courses:['MBBS','MD/MS'],seats:100,est:1986,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Thoothukudi Medical College & Hospital',city:'Thoothukudi',district:'Thoothukudi',type:'Government',cat:'MBBS',courses:['MBBS'],seats:150,est:2000,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Kanyakumari Govt Medical College & Hospital',city:'Nagercoil',district:'Kanyakumari',type:'Government',cat:'MBBS',courses:['MBBS'],seats:150,est:2001,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Theni Medical College & Hospital',city:'Theni',district:'Theni',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2004,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Vellore Medical College & Hospital',city:'Vellore',district:'Vellore',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2005,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Dharmapuri Medical College & Hospital',city:'Dharmapuri',district:'Dharmapuri',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2008,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Thiruvarur Medical College & Hospital',city:'Thiruvarur',district:'Thiruvarur',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2010,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Villupuram Medical College & Hospital',city:'Villupuram',district:'Villupuram',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2010,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Sivagangai Medical College & Hospital',city:'Sivagangai',district:'Sivagangai',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2012,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Tiruvannamalai Medical College & Hospital',city:'Tiruvannamalai',district:'Tiruvannamalai',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2013,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Pudukkottai Medical College & Hospital',city:'Pudukkottai',district:'Pudukkottai',type:'Government',cat:'MBBS',courses:['MBBS'],seats:150,est:2017,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Karur Medical College & Hospital',city:'Karur',district:'Karur',type:'Government',cat:'MBBS',courses:['MBBS'],seats:150,est:2019,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Namakkal Medical College & Hospital',city:'Namakkal',district:'Namakkal',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2021,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Tiruppur Medical College & Hospital',city:'Tiruppur',district:'Tiruppur',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2021,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Ramanathapuram Medical College & Hospital',city:'Ramanathapuram',district:'Ramanathapuram',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2021,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Dindigul Medical College & Hospital',city:'Dindigul',district:'Dindigul',type:'Government',cat:'MBBS',courses:['MBBS'],seats:150,est:2021,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Virudhunagar Medical College & Hospital',city:'Virudhunagar',district:'Virudhunagar',type:'Government',cat:'MBBS',courses:['MBBS'],seats:150,est:2021,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Ariyalur Medical College & Hospital',city:'Ariyalur',district:'Ariyalur',type:'Government',cat:'MBBS',courses:['MBBS'],seats:150,est:2021,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Nagapattinam Medical College & Hospital',city:'Nagapattinam',district:'Nagapattinam',type:'Government',cat:'MBBS',courses:['MBBS'],seats:150,est:2021,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Kallakurichi Medical College & Hospital',city:'Kallakurichi',district:'Kallakurichi',type:'Government',cat:'MBBS',courses:['MBBS'],seats:150,est:2021,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Krishnagiri Medical College & Hospital',city:'Krishnagiri',district:'Krishnagiri',type:'Government',cat:'MBBS',courses:['MBBS'],seats:150,est:2021,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Nilgiris Medical College & Hospital',city:'Udhagamandalam',district:'Nilgiris',type:'Government',cat:'MBBS',courses:['MBBS'],seats:150,est:2021,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Tiruvallur Medical College & Hospital',city:'Tiruvallur',district:'Tiruvallur',type:'Government',cat:'MBBS',courses:['MBBS'],seats:100,est:2021,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+// CENTRAL
+{name:'AIIMS Madurai',city:'Madurai',district:'Madurai',type:'Central',cat:'MBBS',courses:['MBBS','MD/MS','BSc Nursing'],seats:50,est:2023,fee:'~₹1,628/yr',url:'https://www.aiimsmadurai.edu.in'},
+{name:'Rajah Muthiah Medical College (RMMCH) – Annamalai University',city:'Chidambaram',district:'Cuddalore',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS','BDS'],seats:150,est:1969,fee:'~₹50K/yr',url:'https://www.rmmch.ac.in'},
+// PRIVATE / DEEMED MBBS
+{name:'Christian Medical College (CMC)',city:'Vellore',district:'Vellore',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS','BSc Nursing','Allied Health','BPT'],seats:100,est:1942,fee:'~₹13,500/yr',url:'https://www.cmch-vellore.edu'},
+{name:'Sri Ramachandra Institute of Higher Education & Research (SRIHER)',city:'Chennai',district:'Chennai',type:'Deemed',cat:'MBBS',courses:['MBBS','MD/MS','BDS','BSc Nursing','B.Pharm','BPT'],seats:150,est:1985,fee:'~₹25L/yr',url:'https://www.sriher.edu.in'},
+{name:'Saveetha Medical College & Hospital',city:'Chennai',district:'Kanchipuram',type:'Deemed',cat:'MBBS',courses:['MBBS','MD/MS','BDS'],seats:150,est:2008,fee:'~₹22L/yr',url:'https://www.saveetha.com'},
+{name:'SRM Medical College Hospital & Research Institute',city:'Kattankulathur',district:'Kanchipuram',type:'Deemed',cat:'MBBS',courses:['MBBS','MD/MS','BSc Nursing','B.Pharm'],seats:150,est:2005,fee:'~₹20L/yr',url:'https://www.srmist.edu.in'},
+{name:'PSG Institute of Medical Sciences & Research (PSGIMSR)',city:'Coimbatore',district:'Coimbatore',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS','BSc Nursing'],seats:100,est:1985,fee:'~₹5L/yr',url:'https://www.psgimsr.ac.in'},
+{name:'Chettinad Hospital & Research Institute',city:'Kelambakkam',district:'Chengalpattu',type:'Deemed',cat:'MBBS',courses:['MBBS','MD/MS','BSc Nursing'],seats:150,est:2006,fee:'~₹18L/yr',url:'https://www.chettinadhealthsciences.ac.in'},
+{name:'Meenakshi Medical College Hospital & Research Institute',city:'Kanchipuram',district:'Kanchipuram',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS'],seats:150,est:2006,fee:'~₹16L/yr',url:'https://www.meenakshimission.org'},
+{name:'Sree Balaji Medical College & Hospital',city:'Chennai',district:'Chennai',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS','BSc Nursing'],seats:100,est:2003,fee:'~₹20L/yr',url:'https://www.sbmch.edu.in'},
+{name:'Vinayaka Missions Kirupananda Variyar Medical College',city:'Salem',district:'Salem',type:'Deemed',cat:'MBBS',courses:['MBBS','MD/MS','BDS'],seats:150,est:1996,fee:'~₹14L/yr',url:'https://www.vmkvmc.edu.in'},
+{name:'Karpaga Vinayaga Institute of Medical Sciences',city:'Maduranthagam',district:'Chengalpattu',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS'],seats:150,est:2009,fee:'~₹14L/yr',url:'https://www.kims.edu.in'},
+{name:'ACS Medical College & Hospital',city:'Chennai',district:'Chennai',type:'Private',cat:'MBBS',courses:['MBBS'],seats:100,est:2010,fee:'~₹12L/yr',url:'https://www.acsmedicalcollege.edu.in'},
+{name:'Velammal Medical College Hospital & Research Institute',city:'Madurai',district:'Madurai',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS'],seats:150,est:2013,fee:'~₹15L/yr',url:'https://www.velammalmedicalcollege.com'},
+{name:'Tagore Medical College & Hospital',city:'Chennai',district:'Chennai',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS'],seats:100,est:2010,fee:'~₹13L/yr',url:'https://www.tagoremedical.ac.in'},
+{name:'Sri Muthukumaran Medical College & Research Institute',city:'Chennai',district:'Chennai',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS'],seats:150,est:2010,fee:'~₹15L/yr',url:'https://www.smmc.ac.in'},
+{name:'Shri Sathya Sai Medical College & Research Institute',city:'Ammapettai',district:'Chengalpattu',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS'],seats:150,est:2008,fee:'~₹13L/yr',url:'https://www.sssmcri.ac.in'},
+{name:'Sree Mookambika Institute of Medical Sciences',city:'Kulasekharam',district:'Kanyakumari',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS'],seats:100,est:2006,fee:'~₹14L/yr',url:'https://www.smskulasekharam.com'},
+{name:'IRT Perundurai Medical College',city:'Perundurai',district:'Erode',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS'],seats:100,est:1992,fee:'~₹12L/yr',url:'https://www.irtmch.com'},
+{name:'Dhanalakshmi Srinivasan Medical College & Hospital',city:'Perambalur',district:'Perambalur',type:'Private',cat:'MBBS',courses:['MBBS'],seats:100,est:2011,fee:'~₹14L/yr',url:'https://www.dsmcperambalur.com'},
+{name:'Karpagam Faculty of Medical Sciences',city:'Coimbatore',district:'Coimbatore',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS'],seats:150,est:2012,fee:'~₹15L/yr',url:'https://www.karpagammedicalcollege.com'},
+{name:'Chennai Medical College Hospital & Research Centre',city:'Irungalur',district:'Tiruchirappalli',type:'Private',cat:'MBBS',courses:['MBBS'],seats:100,est:2009,fee:'~₹14L/yr',url:'https://www.cmcvellore.ac.in'},
+{name:'Annapoorna Medical College & Hospital',city:'Salem',district:'Salem',type:'Private',cat:'MBBS',courses:['MBBS'],seats:100,est:2011,fee:'~₹13L/yr',url:'https://www.annapoornacollege.com'},
+{name:'Melmaruvathur Adhiparasakthi Institute of Medical Sciences (MAPIMS)',city:'Melmaruvathur',district:'Kanchipuram',type:'Private',cat:'MBBS',courses:['MBBS','BSc Nursing','B.Pharm'],seats:150,est:2011,fee:'~₹14L/yr',url:'https://www.mapims.ac.in'},
+{name:'Sri Venkateshwaraa Medical College Hospital & Research Centre',city:'Puducherry',district:'Puducherry',type:'Private',cat:'MBBS',courses:['MBBS','MD/MS'],seats:100,est:2008,fee:'~₹10L/yr',url:'https://www.svmch.ac.in'},
+{name:'Aarupadai Veedu Medical College (AVMC)',city:'Puducherry',district:'Puducherry',type:'Deemed',cat:'MBBS',courses:['MBBS','MD/MS','BDS'],seats:150,est:2000,fee:'~₹12L/yr',url:'https://www.avmc.vinayakamission.com'},
+// DENTAL
+{name:'Tamil Nadu Govt Dental College & Hospital',city:'Chennai',district:'Chennai',type:'Government',cat:'Dental',courses:['BDS','MDS'],seats:100,est:1953,fee:'~₹13,000/yr',url:'https://www.tngdch.tn.gov.in'},
+{name:'Govt Cuddalore Dental College & Hospital',city:'Chidambaram',district:'Cuddalore',type:'Government',cat:'Dental',courses:['BDS'],seats:100,est:1980,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Dental College Pudukkottai',city:'Pudukkottai',district:'Pudukkottai',type:'Government',cat:'Dental',courses:['BDS'],seats:100,est:2023,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Saveetha Dental College & Hospitals',city:'Chennai',district:'Chennai',type:'Deemed',cat:'Dental',courses:['BDS','MDS'],seats:100,est:1988,fee:'~₹7L/yr',url:'https://www.saveetha.com/dental'},
+{name:'SRM Dental College',city:'Ramapuram',district:'Chennai',type:'Deemed',cat:'Dental',courses:['BDS','MDS'],seats:100,est:2001,fee:'~₹4L/yr',url:'https://www.srmist.edu.in/dental'},
+{name:'Meenakshi Ammal Dental College',city:'Chennai',district:'Chennai',type:'Private',cat:'Dental',courses:['BDS','MDS'],seats:100,est:1992,fee:'~₹5L/yr',url:'https://www.madc.ac.in'},
+{name:'Ragas Dental College & Hospital',city:'Chennai',district:'Chennai',type:'Private',cat:'Dental',courses:['BDS','MDS'],seats:100,est:1993,fee:'~₹3.5L/yr',url:'https://www.ragasdental.ac.in'},
+{name:'Chettinad Dental College & Research Institute',city:'Kelambakkam',district:'Chengalpattu',type:'Deemed',cat:'Dental',courses:['BDS','MDS'],seats:100,est:2006,fee:'~₹5L/yr',url:'https://www.chettinadhealthsciences.ac.in'},
+{name:'Karpaga Vinayaga Institute of Dental Sciences',city:'Maduranthagam',district:'Chengalpattu',type:'Private',cat:'Dental',courses:['BDS','MDS'],seats:100,est:2010,fee:'~₹4L/yr',url:'https://www.kims.edu.in/dental'},
+{name:'Vinayaka Missions Sankarachariyar Dental College',city:'Salem',district:'Salem',type:'Deemed',cat:'Dental',courses:['BDS','MDS'],seats:100,est:2004,fee:'~₹4L/yr',url:'https://www.vmkvmc.edu.in'},
+{name:'Sri Venkateswara Dental College & Hospital',city:'Puducherry',district:'Puducherry',type:'Private',cat:'Dental',courses:['BDS','MDS'],seats:100,est:2009,fee:'~₹3.5L/yr',url:'https://www.svdch.ac.in'},
+{name:'Tagore Dental College & Hospital',city:'Chennai',district:'Chennai',type:'Private',cat:'Dental',courses:['BDS','MDS'],seats:100,est:2002,fee:'~₹4L/yr',url:'https://www.tagoremedical.ac.in'},
+{name:'JKK Nattraja Dental College & Hospital',city:'Komarapalayam',district:'Namakkal',type:'Private',cat:'Dental',courses:['BDS','MDS'],seats:100,est:1998,fee:'~₹3L/yr',url:'https://www.jkkndch.com'},
+{name:'Sree Balaji Dental College & Hospital',city:'Chennai',district:'Chennai',type:'Private',cat:'Dental',courses:['BDS','MDS'],seats:100,est:2004,fee:'~₹5L/yr',url:'https://www.sbdch.ac.in'},
+{name:'KSR Institute of Dental Science & Research',city:'Tiruchengode',district:'Namakkal',type:'Private',cat:'Dental',courses:['BDS','MDS'],seats:100,est:2010,fee:'~₹3L/yr',url:'https://www.ksridsr.com'},
+// NURSING - KEY INSTITUTIONS
+{name:'CMC Vellore College of Nursing',city:'Vellore',district:'Vellore',type:'Private',cat:'Nursing',courses:['BSc Nursing','MSc Nursing','GNM','Post Basic BSc'],seats:60,est:1942,fee:'~₹50K/yr',url:'https://www.cmch-vellore.edu'},
+{name:'Sri Ramachandra College of Nursing (SRIHER)',city:'Chennai',district:'Chennai',type:'Deemed',cat:'Nursing',courses:['BSc Nursing','MSc Nursing','GNM'],seats:60,est:1985,fee:'~₹1.5L/yr',url:'https://www.sriher.edu.in'},
+{name:'Govt College of Nursing – Madras Medical College',city:'Chennai',district:'Chennai',type:'Government',cat:'Nursing',courses:['BSc Nursing','GNM','Post Basic BSc','MSc Nursing'],seats:60,est:1947,fee:'~₹8,000/yr',url:'https://www.mmc.ac.in'},
+{name:'Govt College of Nursing – Rajah Muthiah Medical College',city:'Chidambaram',district:'Cuddalore',type:'Government',cat:'Nursing',courses:['BSc Nursing','GNM'],seats:60,est:1970,fee:'~₹8,000/yr',url:'https://www.rmmch.ac.in'},
+{name:'Govt College of Nursing – Madurai Medical College',city:'Madurai',district:'Madurai',type:'Government',cat:'Nursing',courses:['BSc Nursing','GNM','Post Basic BSc'],seats:60,est:1955,fee:'~₹8,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt College of Nursing – Coimbatore Medical College',city:'Coimbatore',district:'Coimbatore',type:'Government',cat:'Nursing',courses:['BSc Nursing','GNM'],seats:60,est:1968,fee:'~₹8,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt College of Nursing – Thanjavur Medical College',city:'Thanjavur',district:'Thanjavur',type:'Government',cat:'Nursing',courses:['BSc Nursing','GNM'],seats:60,est:1960,fee:'~₹8,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt College of Nursing – Tirunelveli Medical College',city:'Tirunelveli',district:'Tirunelveli',type:'Government',cat:'Nursing',courses:['BSc Nursing','GNM'],seats:60,est:1967,fee:'~₹8,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Omayal Achi College of Nursing',city:'Chennai',district:'Chennai',type:'Private',cat:'Nursing',courses:['BSc Nursing','MSc Nursing','GNM'],seats:60,est:1992,fee:'~₹60K/yr',url:'https://www.omayal.ac.in'},
+{name:'Saveetha College of Nursing',city:'Chennai',district:'Chennai',type:'Deemed',cat:'Nursing',courses:['BSc Nursing','MSc Nursing','GNM'],seats:60,est:1990,fee:'~₹80K/yr',url:'https://www.saveetha.com'},
+{name:'Annai Meenakshi College of Nursing',city:'Coimbatore',district:'Coimbatore',type:'Private',cat:'Nursing',courses:['BSc Nursing','GNM','MSc Nursing'],seats:60,est:1994,fee:'~₹55K/yr',url:'https://www.annaicollegeofnursing.com'},
+{name:'MIOT College of Nursing',city:'Chennai',district:'Chennai',type:'Private',cat:'Nursing',courses:['BSc Nursing','MSc Nursing'],seats:60,est:2002,fee:'~₹80K/yr',url:'https://www.miothospitals.com'},
+{name:'Adhiparasakthi College of Nursing',city:'Melmaruvathur',district:'Kanchipuram',type:'Private',cat:'Nursing',courses:['BSc Nursing','GNM','MSc Nursing'],seats:60,est:1993,fee:'~₹50K/yr',url:'https://www.mapims.ac.in'},
+{name:'Sri Gokulam College of Nursing',city:'Salem',district:'Salem',type:'Private',cat:'Nursing',courses:['BSc Nursing','GNM','MSc Nursing'],seats:60,est:1992,fee:'~₹50K/yr',url:'https://www.srigokulam.org'},
+{name:'Matha College of Nursing',city:'Manamadurai',district:'Sivagangai',type:'Private',cat:'Nursing',courses:['BSc Nursing','MSc Nursing'],seats:60,est:1993,fee:'~₹45K/yr',url:'https://www.mathacollegeofnursing.com'},
+{name:'Sri Ramakrishna Institute of Paramedical Sciences – College of Nursing',city:'Coimbatore',district:'Coimbatore',type:'Private',cat:'Nursing',courses:['BSc Nursing','GNM','MSc Nursing'],seats:60,est:1986,fee:'~₹55K/yr',url:'https://www.srikrishnaparamedical.com'},
+{name:'Nehru College of Nursing',city:'Tirunelveli',district:'Tirunelveli',type:'Private',cat:'Nursing',courses:['BSc Nursing','GNM'],seats:60,est:2002,fee:'~₹45K/yr',url:'https://www.nehrucolleges.com'},
+{name:'Sree Balaji College of Nursing',city:'Chennai',district:'Chennai',type:'Private',cat:'Nursing',courses:['BSc Nursing','MSc Nursing','GNM'],seats:60,est:2003,fee:'~₹65K/yr',url:'https://www.sbcn.edu.in'},
+{name:'Annai JKK Sampoorani Ammal College of Nursing',city:'Komarapalayam',district:'Namakkal',type:'Private',cat:'Nursing',courses:['BSc Nursing','GNM'],seats:60,est:1993,fee:'~₹45K/yr',url:'https://www.jkkcolleges.com'},
+{name:'Kasturba Gandhi Nursing College',city:'Puducherry',district:'Puducherry',type:'Private',cat:'Nursing',courses:['BSc Nursing','MSc Nursing'],seats:60,est:2004,fee:'~₹55K/yr',url:'https://www.kgnc.ac.in'},
+{name:'Apollo College of Nursing',city:'Chennai',district:'Chennai',type:'Private',cat:'Nursing',courses:['BSc Nursing','MSc Nursing','GNM'],seats:60,est:2003,fee:'~₹90K/yr',url:'https://www.apolloeducation.org'},
+{name:'Vignesh College of Nursing',city:'Tiruvannamalai',district:'Tiruvannamalai',type:'Private',cat:'Nursing',courses:['BSc Nursing','GNM'],seats:60,est:2007,fee:'~₹40K/yr',url:'https://www.vigneshnursing.com'},
+{name:'Aladi Aruna College of Nursing',city:'Tirunelveli',district:'Tirunelveli',type:'Private',cat:'Nursing',courses:['BSc Nursing','GNM'],seats:60,est:2009,fee:'~₹40K/yr',url:'https://www.aladiarunacolleges.com'},
+// PHARMACY
+{name:'Madras Medical College – Pharmacy Department',city:'Chennai',district:'Chennai',type:'Government',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','Pharm.D'],seats:30,est:1962,fee:'~₹10K/yr',url:'https://www.mmc.ac.in'},
+{name:'Govt College of Pharmacy Madurai',city:'Madurai',district:'Madurai',type:'Government',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','D.Pharm'],seats:60,est:1975,fee:'~₹12K/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Sri Ramachandra College of Pharmacy (SRIHER)',city:'Chennai',district:'Chennai',type:'Deemed',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','Pharm.D','D.Pharm'],seats:60,est:1985,fee:'~₹1L/yr',url:'https://www.sriher.edu.in'},
+{name:'SRM College of Pharmacy',city:'Kattankulathur',district:'Kanchipuram',type:'Deemed',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','Pharm.D'],seats:60,est:2001,fee:'~₹1.2L/yr',url:'https://www.srmist.edu.in'},
+{name:'JSS College of Pharmacy',city:'Udhagamandalam',district:'Nilgiris',type:'Deemed',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','Pharm.D','PhD'],seats:60,est:1980,fee:'~₹80K/yr',url:'https://www.jsscp.ac.in'},
+{name:'PSG College of Pharmacy',city:'Coimbatore',district:'Coimbatore',type:'Private',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','D.Pharm','Pharm.D'],seats:60,est:1997,fee:'~₹80K/yr',url:'https://www.psgpharmacy.ac.in'},
+{name:'Vels College of Pharmacy',city:'Chennai',district:'Chennai',type:'Deemed',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','Pharm.D','D.Pharm'],seats:60,est:1997,fee:'~₹70K/yr',url:'https://www.velsuniv.ac.in'},
+{name:'KMCH College of Pharmacy',city:'Coimbatore',district:'Coimbatore',type:'Private',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','Pharm.D'],seats:60,est:2006,fee:'~₹80K/yr',url:'https://www.kmchannel.ac.in'},
+{name:'Sri Ramakrishna Institute of Paramedical Sciences – Pharmacy',city:'Coimbatore',district:'Coimbatore',type:'Private',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','D.Pharm','Pharm.D'],seats:60,est:1986,fee:'~₹75K/yr',url:'https://www.srikrishnaparamedical.com'},
+{name:'Vinayaka Missions College of Pharmacy',city:'Salem',district:'Salem',type:'Deemed',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','D.Pharm','Pharm.D'],seats:60,est:2001,fee:'~₹60K/yr',url:'https://www.vmkvmc.edu.in'},
+{name:'Adhiparasakthi College of Pharmacy',city:'Melmaruvathur',district:'Kanchipuram',type:'Private',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','D.Pharm'],seats:60,est:1993,fee:'~₹60K/yr',url:'https://www.mapims.ac.in'},
+{name:'Arulmigu Kalasalingam College of Pharmacy',city:'Virudhunagar',district:'Virudhunagar',type:'Private',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','D.Pharm'],seats:60,est:2001,fee:'~₹55K/yr',url:'https://www.kalasalingam.ac.in'},
+{name:'Annamalai University – Faculty of Pharmacy',city:'Chidambaram',district:'Cuddalore',type:'Government',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','Pharm.D','PhD'],seats:60,est:1951,fee:'~₹30K/yr',url:'https://www.annamalaiuniversity.ac.in'},
+{name:'Karpagam College of Pharmacy',city:'Coimbatore',district:'Coimbatore',type:'Private',cat:'Pharmacy',courses:['B.Pharm','M.Pharm','Pharm.D'],seats:60,est:2004,fee:'~₹65K/yr',url:'https://www.karpagam.edu.in'},
+{name:'Dr MGR Educational & Research Institute – Pharmacy',city:'Chennai',district:'Chennai',type:'Deemed',cat:'Pharmacy',courses:['B.Pharm','Pharm.D','M.Pharm'],seats:60,est:1988,fee:'~₹80K/yr',url:'https://www.drmgrdu.ac.in'},
+// AYUSH
+{name:'Govt Siddha Medical College Chennai',city:'Chennai',district:'Chennai',type:'Government',cat:'AYUSH',courses:['BSMS','MD Siddha'],seats:60,est:1985,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Siddha Medical College Palayamkottai',city:'Tirunelveli',district:'Tirunelveli',type:'Government',cat:'AYUSH',courses:['BSMS','MD Siddha'],seats:100,est:1964,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Homoeopathic Medical College Thirumangalam',city:'Madurai',district:'Madurai',type:'Government',cat:'AYUSH',courses:['BHMS','MD Homeopathy'],seats:50,est:1975,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Unani Medical College Chennai',city:'Chennai',district:'Chennai',type:'Government',cat:'AYUSH',courses:['BUMS','MD Unani'],seats:60,est:1979,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Ayurveda Medical College Nagercoil',city:'Nagercoil',district:'Kanyakumari',type:'Government',cat:'AYUSH',courses:['BAMS','MD Ayurveda'],seats:60,est:2009,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Yoga & Naturopathy Medical College Chennai',city:'Chennai',district:'Chennai',type:'Government',cat:'AYUSH',courses:['BNYS'],seats:60,est:2000,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'International Institute of Yoga & Naturopathy Medical Sciences',city:'Chengalpattu',district:'Chengalpattu',type:'Government',cat:'AYUSH',courses:['BNYS'],seats:100,est:2020,fee:'~₹13,000/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Sri Sai Ram Siddha Medical College & Research Centre',city:'Chennai',district:'Chennai',type:'Private',cat:'AYUSH',courses:['BSMS','MD Siddha'],seats:60,est:2005,fee:'~₹1.5L/yr',url:'https://www.sairam.edu.in'},
+{name:'Santhigiri Siddha Medical College',city:'Chennai',district:'Chennai',type:'Private',cat:'AYUSH',courses:['BSMS'],seats:60,est:2007,fee:'~₹1.2L/yr',url:'https://www.santhigirisiddha.com'},
+{name:'National Institute of Siddha (NIS)',city:'Chennai',district:'Chennai',type:'Central',cat:'AYUSH',courses:['BSMS','MD Siddha','PhD'],seats:50,est:2005,fee:'~₹20K/yr',url:'https://www.nischennai.org'},
+{name:'Vinayaka Missions Homeopathic Medical College',city:'Salem',district:'Salem',type:'Deemed',cat:'AYUSH',courses:['BHMS','MD Homeopathy'],seats:60,est:2001,fee:'~₹1L/yr',url:'https://www.vmkvmc.edu.in'},
+{name:'Sri Sai Ram Ayurveda Medical College',city:'Chennai',district:'Chennai',type:'Private',cat:'AYUSH',courses:['BAMS','MD Ayurveda'],seats:60,est:2006,fee:'~₹1.5L/yr',url:'https://www.sairam.edu.in'},
+// PARAMEDICAL
+{name:'Govt College of Physiotherapy Tiruchirappalli',city:'Tiruchirappalli',district:'Tiruchirappalli',type:'Government',cat:'Paramedical',courses:['BPT','MPT'],seats:25,est:1988,fee:'~₹10K/yr',url:'https://www.dme.tn.gov.in'},
+{name:'Govt Institute of Rehabilitation Medicine Chennai',city:'Chennai',district:'Chennai',type:'Government',cat:'Paramedical',courses:['BPT','BOT','Prosthetics & Orthotics'],seats:40,est:1979,fee:'~₹10K/yr',url:'https://www.girm.tn.gov.in'},
+{name:'Sri Ramachandra College of Allied Health Sciences',city:'Chennai',district:'Chennai',type:'Deemed',cat:'Paramedical',courses:['BMLT','BSc Radiology','BASLP','BOT','BPT','B.Optom','Cardiac Tech'],seats:60,est:1985,fee:'~₹1.2L/yr',url:'https://www.sriher.edu.in'},
+{name:'CMC Vellore – School of Allied Health Sciences',city:'Vellore',district:'Vellore',type:'Private',cat:'Paramedical',courses:['BMLT','BSc Radiology','BASLP','BOT','BPT','B.Optom'],seats:60,est:1942,fee:'~₹80K/yr',url:'https://www.cmch-vellore.edu'},
+{name:'PSG Institute of Medical Sciences – Allied Health',city:'Coimbatore',district:'Coimbatore',type:'Private',cat:'Paramedical',courses:['BPT','MPT','BMLT','BSc Radiology'],seats:40,est:1985,fee:'~₹1L/yr',url:'https://www.psgimsr.ac.in'},
+{name:'Saveetha College of Allied Health Sciences',city:'Chennai',district:'Kanchipuram',type:'Deemed',cat:'Paramedical',courses:['BPT','BOT','BMLT','BSc Radiology','OTAT'],seats:60,est:2008,fee:'~₹1.2L/yr',url:'https://www.saveetha.com'},
+{name:'SRM College of Health Sciences',city:'Kattankulathur',district:'Kanchipuram',type:'Deemed',cat:'Paramedical',courses:['BPT','BMLT','BSc Radiology','BASLP','BOT'],seats:60,est:2001,fee:'~₹1.2L/yr',url:'https://www.srmist.edu.in'},
+{name:'Sri Ramakrishna Institute of Paramedical Sciences (SRIPS)',city:'Coimbatore',district:'Coimbatore',type:'Private',cat:'Paramedical',courses:['BPT','BMLT','BSc Radiology','OTAT','BOT','B.Optom'],seats:60,est:1986,fee:'~₹80K/yr',url:'https://www.srikrishnaparamedical.com'},
+{name:'KG College of Physiotherapy',city:'Coimbatore',district:'Coimbatore',type:'Private',cat:'Paramedical',courses:['BPT','MPT'],seats:30,est:2000,fee:'~₹90K/yr',url:'https://www.kgcop.ac.in'},
+{name:'Apollo College of Allied Health Sciences',city:'Chennai',district:'Chennai',type:'Private',cat:'Paramedical',courses:['BPT','BMLT','BSc Radiology','BOT'],seats:60,est:2003,fee:'~₹1.2L/yr',url:'https://www.apolloeducation.org'},
+{name:'Meenakshi College of Allied Health Sciences',city:'Chennai',district:'Chennai',type:'Private',cat:'Paramedical',courses:['BMLT','BSc Radiology','OTAT','Cardiac Tech'],seats:60,est:2006,fee:'~₹90K/yr',url:'https://www.meenakshimission.org'},
+{name:'Sri Venkateswara College of Allied Health Sciences',city:'Puducherry',district:'Puducherry',type:'Private',cat:'Paramedical',courses:['BPT','BMLT','BSc Radiology'],seats:40,est:2008,fee:'~₹80K/yr',url:'https://www.svdch.ac.in'},
+// VETERINARY
+{name:'Madras Veterinary College (TANUVAS)',city:'Chennai',district:'Chennai',type:'Government',cat:'Veterinary',courses:['BVSc & AH','MVSc','PhD'],seats:60,est:1903,fee:'~₹15K/yr',url:'https://www.tanuvas.ac.in'},
+{name:'Veterinary College & Research Institute Namakkal (TANUVAS)',city:'Namakkal',district:'Namakkal',type:'Government',cat:'Veterinary',courses:['BVSc & AH','MVSc'],seats:60,est:1991,fee:'~₹15K/yr',url:'https://www.tanuvas.ac.in'},
+{name:'Veterinary College & Research Institute Salem (TANUVAS)',city:'Salem',district:'Salem',type:'Government',cat:'Veterinary',courses:['BVSc & AH'],seats:60,est:2013,fee:'~₹15K/yr',url:'https://www.tanuvas.ac.in'},
+{name:'Veterinary College & Research Institute Tirunelveli (TANUVAS)',city:'Tirunelveli',district:'Tirunelveli',type:'Government',cat:'Veterinary',courses:['BVSc & AH'],seats:60,est:2014,fee:'~₹15K/yr',url:'https://www.tanuvas.ac.in'},
+{name:'Veterinary College & Research Institute Orathanadu (TANUVAS)',city:'Thanjavur',district:'Thanjavur',type:'Government',cat:'Veterinary',courses:['BVSc & AH'],seats:60,est:2012,fee:'~₹15K/yr',url:'https://www.tanuvas.ac.in'},
+{name:'Veterinary College & Research Institute Udumalpet (TANUVAS)',city:'Tiruppur',district:'Tiruppur',type:'Government',cat:'Veterinary',courses:['BVSc & AH'],seats:60,est:2015,fee:'~₹15K/yr',url:'https://www.tanuvas.ac.in'},
+// LIFE SCIENCES
+{name:'Anna University – Biotech & Life Sciences',city:'Chennai',district:'Chennai',type:'Government',cat:'Life Science',courses:['BTech Biotech','BTech Food Tech','BTech Bioinformatics','MSc Biotech'],seats:60,est:1978,fee:'~₹30K/yr',url:'https://www.annauniv.edu'},
+{name:'Tamil Nadu Agricultural University (TNAU)',city:'Coimbatore',district:'Coimbatore',type:'Government',cat:'Life Science',courses:['BSc Agriculture','BSc Horticulture','BTech Biotech','BSc Food Science','MSc Agri'],seats:60,est:1971,fee:'~₹25K/yr',url:'https://www.tnau.ac.in'},
+{name:'Annamalai University – Life Sciences',city:'Chidambaram',district:'Cuddalore',type:'Government',cat:'Life Science',courses:['BSc Biotech','BSc Microbiology','BSc Biochemistry','MSc Biotech','PhD'],seats:60,est:1929,fee:'~₹20K/yr',url:'https://www.annamalaiuniversity.ac.in'},
+{name:'Madurai Kamaraj University – Biotech',city:'Madurai',district:'Madurai',type:'Government',cat:'Life Science',courses:['BSc Biotech','BSc Microbiology','BSc Zoology','BSc Botany','MSc','PhD'],seats:60,est:1966,fee:'~₹18K/yr',url:'https://www.mkuniversity.ac.in'},
+{name:'Bharathidasan University – Life Sciences',city:'Tiruchirappalli',district:'Tiruchirappalli',type:'Government',cat:'Life Science',courses:['BSc Biotech','BSc Microbiology','BSc Biochemistry','MSc','PhD'],seats:60,est:1982,fee:'~₹18K/yr',url:'https://www.bdu.ac.in'},
+{name:'Vellore Institute of Technology (VIT) – Biotech & Bio-Engineering',city:'Vellore',district:'Vellore',type:'Deemed',cat:'Life Science',courses:['BTech Biotech','BTech Bioinformatics','BTech Biomedical Engg','MSc Biotech'],seats:60,est:1984,fee:'~₹1.5L/yr',url:'https://www.vit.ac.in'},
+{name:'SRM Institute – Biotech & Life Sciences',city:'Kattankulathur',district:'Kanchipuram',type:'Deemed',cat:'Life Science',courses:['BTech Biotech','BSc Biotech','BSc Microbiology','MSc Biotech'],seats:60,est:2002,fee:'~₹1.5L/yr',url:'https://www.srmist.edu.in'},
+{name:'Saveetha Institute – Life Sciences',city:'Chennai',district:'Chennai',type:'Deemed',cat:'Life Science',courses:['BSc Biotech','BSc Microbiology','BSc Nutrition','MSc Biotech'],seats:60,est:2001,fee:'~₹1L/yr',url:'https://www.saveetha.com'},
+{name:'PSG College of Arts & Science – Life Sciences',city:'Coimbatore',district:'Coimbatore',type:'Private',cat:'Life Science',courses:['BSc Biotech','BSc Microbiology','BSc Biochemistry','BSc Zoology','MSc'],seats:60,est:1947,fee:'~₹45K/yr',url:'https://www.psgcas.ac.in'},
+{name:'Avinashilingam Institute for Home Science – Nutrition',city:'Coimbatore',district:'Coimbatore',type:'Deemed',cat:'Life Science',courses:['BSc Nutrition & Dietetics','MSc Food Science','PhD'],seats:40,est:1957,fee:'~₹60K/yr',url:'https://www.avinuty.ac.in'},
+{name:'Sri Ramachandra Institute – Life Sciences',city:'Chennai',district:'Chennai',type:'Deemed',cat:'Life Science',courses:['BSc Biotech','BSc Nutrition','MSc Biotech','PhD'],seats:40,est:1985,fee:'~₹1.2L/yr',url:'https://www.sriher.edu.in'},
+{name:'Thiruvalluvar University – Life Sciences',city:'Vellore',district:'Vellore',type:'Government',cat:'Life Science',courses:['BSc Microbiology','BSc Biotech','BSc Botany','BSc Zoology','MSc'],seats:60,est:2002,fee:'~₹12K/yr',url:'https://www.tvu.edu.in'},
+{name:'Mother Teresa Women\'s University – Life Sciences',city:'Kodaikanal',district:'Dindigul',type:'Government',cat:'Life Science',courses:['BSc Nutrition','BSc Microbiology','BSc Biotech','MSc'],seats:40,est:1984,fee:'~₹12K/yr',url:'https://www.motherteresawomenuniv.ac.in'},
+];
+
+// POPULATE DISTRICT DROPDOWN
+const districts = [...new Set(colleges.map(c=>c.district))].sort();
+const distSel = document.getElementById('colDistFilter');
+districts.forEach(d=>{ const o=document.createElement('option'); o.value=d; o.textContent=d; distSel.appendChild(o); });
+
+// BUILD COLLEGE CARD
+const colTypeCls = {Government:'tp-gov',Private:'tp-pvt',Deemed:'tp-auto',Central:'tp-gov'};
+const catColor = {'MBBS':'#fee2e2','Dental':'#fce7f3','Nursing':'#dcfce7','Pharmacy':'#fef3c7','AYUSH':'#d1fae5','Paramedical':'#ede9fe','Veterinary':'#e0f2fe','Life Science':'#e0f7fa'};
+const catText2 = {'MBBS':'#b91c1c','Dental':'#9d174d','Nursing':'#14532d','Pharmacy':'#78350f','AYUSH':'#064e3b','Paramedical':'#4c1d95','Veterinary':'#0c4a6e','Life Science':'#134e4a'};
+
+function buildColCard(c){
+  return `<div class="college-card card">
+    <div class="college-top">
+      <div class="college-name">${c.name}</div>
+      <span class="dist-pill">${c.district}</span>
+    </div>
+    <div style="display:flex;gap:5px;flex-wrap:wrap">
+      <span class="type-pill ${colTypeCls[c.type]||'tp-pvt'}">${c.type}</span>
+      <span style="font-size:10px;font-weight:700;padding:2px 8px;border-radius:99px;background:${catColor[c.cat]};color:${catText2[c.cat]}">${c.cat}</span>
+      ${c.seats?`<span style="font-size:10px;font-weight:700;padding:2px 8px;border-radius:99px;background:var(--b50);color:var(--b700)">🪑 ${c.seats} seats</span>`:''}
+    </div>
+    <div class="course-tags">${c.courses.map(x=>`<span class="ctag">${x}</span>`).join('')}</div>
+    <div class="college-footer">
+      <span style="font-size:11px;color:var(--g400)">📅 Est. ${c.est} &nbsp;·&nbsp; ${c.fee}</span>
+      <a class="college-link" href="${c.url}" target="_blank">Website ↗</a>
+    </div>
+  </div>`;
+}
+
+function filterColleges(){
+  const q = document.getElementById('colSearch').value.toLowerCase();
+  const cat = document.getElementById('colCatFilter').value;
+  const type = document.getElementById('colTypeFilter').value;
+  const dist = document.getElementById('colDistFilter').value;
+  const filtered = colleges.filter(c=>{
+    return (!q || c.name.toLowerCase().includes(q) || c.city.toLowerCase().includes(q) || c.courses.join(' ').toLowerCase().includes(q))
+      && (!cat || c.cat===cat)
+      && (!type || c.type===type)
+      && (!dist || c.district===dist);
+  });
+  document.getElementById('colGrid').innerHTML = filtered.length
+    ? filtered.map(buildColCard).join('')
+    : `<div class="no-res" style="grid-column:1/-1"><span>🔍</span>No colleges match. Try different filters.</div>`;
+  document.getElementById('colCount').textContent = `${filtered.length} of ${colleges.length} colleges`;
+}
+filterColleges();
+</script>
+</body>
+</html>
